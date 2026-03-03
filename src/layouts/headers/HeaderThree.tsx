@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 import { useState } from "react";
 
 
-export default function HeaderThree() {
+export default function HeaderThree({ dictionary, lang }: { dictionary: any; lang: string }) {
   const { hidden, sticky } = UseSticky();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +18,7 @@ export default function HeaderThree() {
           <div className="row gx-3 align-items-center justify-content-between">
             <div className="col-8 col-sm-auto ">
               <div className="header-logo">
-                <Link href="/">
+                <Link href={`/${lang}`}>
                   <img src="/assets/images/logo-1-dark.svg" alt="logo" style={{ width: '250px' }} />
                 </Link>
               </div>
@@ -26,7 +26,7 @@ export default function HeaderThree() {
             <div className="col">
               <div className="azzle-main-menu-item">
                 <nav className="main-menu menu-style1 d-none d-lg-block menu-left">
-                  <Navmenu />
+                  <Navmenu dictionary={dictionary} lang={lang} />
                 </nav>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function HeaderThree() {
           </div>
         </div>
       </header>
-      <MobileMenu setIsOpen={setIsOpen} isOpen={isOpen} />
+      <MobileMenu setIsOpen={setIsOpen} isOpen={isOpen} dictionary={dictionary} lang={lang} />
 
     </>
   )
