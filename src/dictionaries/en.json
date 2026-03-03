@@ -1,0 +1,1032 @@
+
+{
+  "navigation": {
+    "about": "About Us",
+    "services": "Services",
+    "leadership": "Leadership",
+    "gallery": "Gallery",
+    "downloads": "Downloads",
+    "contact": "Contact Us"
+  },
+  "breadcrumb_home": "Home",
+  "hero": {
+    "slide1_title": "Your Trusted Partner for All Government Services",
+    "slide1_desc": "Al Garhoud Center is your trusted partner for a seamless government service experience. We provide a comprehensive range of services with efficiency and a focus on customer satisfaction.",
+    "slide2_title": "Efficient, Swift, and Client-Focused Solutions",
+    "slide2_desc": "Our streamlined processes and dedicated team ensure your government transactions are handled quickly and professionally, saving you valuable time and effort.",
+    "slide3_title": "Comprehensive Services Under One Roof",
+    "slide3_desc": "From visa processing and Emirates ID to business licensing and notary services, we offer a complete solution for all your official needs in Dubai.",
+    "get_started": "Get started",
+    "learn_more": "Learn more"
+  },
+  "header_phone": "04 399 1744",
+  "features": {
+    "title": "Our Services",
+    "services": [
+      { "key": "dha", "title": "Dubai Health - DHA", "desc": "Medical fitness typing and all necessary approvals are handled seamlessly.", "link": "/service/dha", "logo": "/assets/images/service/DHA-logo.webp" },
+      { "key": "typing", "title": "Typing Services", "desc": "Accurate typing for visas, labor contracts, and various legal documents.", "link": "/service/typing", "logo": "/assets/images/service/typing-logo.webp" },
+      { "key": "amer", "title": "Amer", "desc": "Complete Amer services for visa renewal, cancellation, and modifications.", "link": "/service/amer", "logo": "/assets/images/service/amer-logo.webp" },
+      { "key": "det", "title": "DET", "desc": "License applications, renewals, and all modifications for your business.", "link": "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx?dedqs=PM671p6QBb0lV1okx2JABgxoLLKXOgPx", "logo": "/assets/images/service/det-logo.webp" },
+      { "key": "tawjeeh", "title": "Taw-Jeeh Services", "desc": "All Ministry of Labour and Taw-Jeeh services handled professionally.", "link": "/service/tawjeeh", "logo": "/assets/images/service/t3-logo.webp" },
+      { "key": "notary", "title": "Notary Public", "desc": "Book legal appointments and get government certified true copies.", "link": "/service/notary", "logo": "/assets/images/service/dubai-courts-logo.webp" },
+      { "key": "salem", "title": "Salem", "desc": "Occupational health screening and all medical fitness services.", "link": "/service/salem", "logo": "/assets/images/service/salem.jpg" },
+      { "key": "business-setup", "title": "Business Setup", "desc": "Comprehensive assistance for setting up your new business in Dubai.", "link": "/service/business-setup", "logo": "/assets/images/service/business.jpg" },
+      { "key": "tax-consultancy", "title": "Tax Consultancy", "desc": "Expert advice and professional services for VAT registration needs.", "link": "/service/tax-consultancy", "logo": "/assets/images/service/tax.jpg" },
+      { "key": "accounting", "title": "Accounting Services", "desc": "Professional bookkeeping and accounting for all business needs.", "link": "/service/accounting", "logo": "/assets/images/service/accounting.jpg" }
+    ],
+    "view_services": "View Services",
+    "clientele_title": "Our clientele includes established organizations throughout Dubai"
+  },
+  "about": {
+    "title": "Efficient, Swift and Client-Focused Solutions",
+    "desc": "At Al Garhoud Center, we prioritize your convenience. Our streamlined processes and dedicated team ensure your government transactions are handled quickly and professionally, saving you valuable time.",
+    "features": [
+      "Comprehensive range of government services",
+      "Expert guidance from our professional team",
+      "Reduced processing times for all applications"
+    ]
+  },
+  "mission_vision": {
+    "vision": {
+      "title": "Vision",
+      "desc": "To simplify government and business processes through expert guidance, smart systems and end-to-end solutions - empowering individuals and enterprises to operate, expand and succeed across the Middle East with confidence."
+    },
+    "mission": {
+      "title": "Mission",
+      "desc": "To be the region's most trusted and digitally driven gateway for government services and business solutions - setting new benchmarks in compliance, speed and customer experience."
+    },
+    "values": {
+      "title": "Values",
+      "items": [
+        "Trust First",
+        "Client-Centric Excellence",
+        "Compliance by Design"
+      ]
+    }
+  },
+  "quote": {
+    "text": "\"I believe that positive energy and optimism help us to take up any challenge in life and to succeed in even the most difficult tasks. I also believe that positive energy is contagious: we can transmit it to others.\"",
+    "author": "His Highness Sheikh Mohammed bin Rashid Al Maktoum"
+  },
+  "faq": {
+    "title": "Have Questions? We Have Answers.",
+    "desc": "Our team is ready to provide you with the information you need. Find answers to common questions about our services, processes and how we can help you navigate government procedures with ease.",
+    "cta": "Contact us on WhatsApp",
+    "questions": [
+      {
+        "id": 1,
+        "q": "What services does Al Garhoud Center provide?",
+        "a": "We offer a wide range of government services, including visa processing, Emirates ID typing, medical fitness applications, and various approvals from Amer, DET, and DHA. Our services also cover Taw-Jeeh for labor-related processes and Notary Public services for legal documentation."
+      },
+      {
+        "id": 2,
+        "q": "What are your operating hours?",
+        "a": "Our center is open from 7:30 AM to 8:00 PM, Saturday to Thursday, to provide you with flexible and convenient service options for all your needs."
+      },
+      {
+        "id": 3,
+        "q": "Do I need an appointment to visit the center?",
+        "a": "No appointment is necessary for most of our services. You can visit us during our operating hours and our team will be ready to assist you promptly."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Positive feedback from our valued clients",
+    "feedbacks": [
+      {
+        "text": "“The team at Al Garhoud Center revolutionized how I handle my visa renewals. Fast, professional and so efficient. A game-changer for any resident.”",
+        "author": "Ahmed Al-Sayed",
+        "role": "Business Owner",
+        "img": "/assets/images/home1/author1.png"
+      },
+      {
+        "text": "\"They answer immediately and provide clear guidance. My medical fitness test process was incredibly smooth. Our go-to center from now on!\"",
+        "author": "Johnathan Smith",
+        "role": "Expat Resident",
+        "img": "/assets/images/home1/author2.png"
+      },
+      {
+        "text": "\"Fast, accurate and professional. The Amer and Taw-Jeeh services here are must-haves for any company operating in Dubai.\"",
+        "author": "Rajesh Kumar",
+        "role": "PRO Manager",
+        "img": "/assets/images/home1/author3.png"
+      },
+      {
+        "text": "\"Security and trust are my top concerns. Al Garhoud Center handles all documents with the utmost confidentiality. A reassuring layer of professionalism.\"",
+        "author": "David Chen",
+        "role": "Investor",
+        "img": "/assets/images/home1/author4.png"
+      },
+      {
+        "text": "\"We were concerned about the complexity of our trade license renewal, but their DET services were well-documented and their support team was fantastic.\"",
+        "author": "Kevin Lynn",
+        "role": "Restaurant Owner",
+        "img": "/assets/images/home1/author5.png"
+      },
+      {
+        "text": "\"The return on investment in their services has exceeded our expectations. It's an investment in efficiency and peace of mind for our business.\"",
+        "author": "Henry Ochi",
+        "role": "Logistics Manager",
+        "img": "/assets/images/home1/author6.png"
+      }
+    ]
+  },
+  "footer": {
+    "cta_items": [
+      "Simplify your visa process",
+      "Boost your business setup",
+      "Grow with expert guidance",
+      "Innovate with seamless services",
+      "Deliver on time, every time",
+      "Stay ahead of regulations"
+    ],
+    "description": "Al Garhoud Center is dedicated to providing exceptional government services with a commitment to efficiency, transparency and customer satisfaction, aligning with the vision of Dubai's leadership.",
+    "email_label": "Email:",
+    "phone_label": "Phone:",
+    "pages_title": "Pages",
+    "services_title": "Services",
+    "subscribe_title": "Subscribe our newsletter",
+    "subscribe_placeholder": "Enter your email",
+    "copyright": "© Copyright 2026, All Rights Reserved by",
+    "services_links": [
+        { "title": "Dubai Health - DHA", "path": "/service/dha" },
+        { "title": "Typing Services", "path": "/service/typing" },
+        { "title": "Amer", "path": "/service/amer" },
+        { "title": "DET", "path": "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx?dedqs=PM671p6QBb0lV1okx2JABgxoLLKXOgPx" },
+        { "title": "Taw-Jeeh Services", "path": "/service/tawjeeh" },
+        { "title": "Notary Public", "path": "/service/notary" }
+    ],
+    "pages_links": [
+        { "title": "Home", "path": "/" },
+        { "title": "About Us", "path": "/about-us" },
+        { "title": "Leadership", "path": "/team" },
+        { "title": "Gallery", "path": "/gallery" },
+        { "title": "Downloads", "path": "/downloads" },
+        { "title": "Contact Us", "path": "/contact-us" }
+    ]
+  },
+  "service_page": {
+    "title": "A World of Services at Your Fingertips"
+  },
+  "service_tabs": [
+    {
+      "key": "dha",
+      "title": "Dubai Health - DHA",
+      "content": "Our expert team handles all your DHA-related needs, including medical fitness test applications, typing services, and securing necessary approvals. We ensure a seamless and efficient process, so you can meet your health requirements for residency and employment in Dubai without any hassle."
+    },
+    {
+      "key": "typing",
+      "title": "Typing Services",
+      "content": "We provide comprehensive and accurate typing services for a wide range of documents. From visa applications and labor contracts to legal notices and official forms, our professional typists ensure precision and compliance with all government standards, saving you time and preventing errors."
+    },
+    {
+      "key": "amer",
+      "title": "Amer",
+      "content": "Navigate the Amer system with ease. Our center offers a complete suite of Amer services, including new visa applications, residency renewals, cancellations, and modifications. We act as your single point of contact to manage all your GDRFA-related transactions efficiently."
+    },
+    {
+      "key": "det",
+      "title": "DET",
+      "content": "Streamline your business setup and licensing with our expert DET (Department of Economy and Tourism) services. We assist with new business license applications, annual renewals, and any modifications, ensuring your company remains compliant with Dubai's commercial regulations."
+    },
+    {
+      "key": "tawjeeh",
+      "title": "Taw-Jeeh Services",
+      "content": "Al Garhoud Center is your trusted partner for all Taw-Jeeh services. We handle everything related to the Ministry of Labour, including contract processing, orientation, and awareness programs, ensuring both employers and employees understand their rights and responsibilities."
+    },
+    {
+      "key": "notary",
+      "title": "Notary Public",
+      "content": "Access certified notary public services with convenience at our center. We assist in booking legal appointments, attesting documents, and obtaining government-certified true copies for all your official and personal needs, providing a reliable and professional experience."
+    },
+    {
+      "key": "salem",
+      "title": "Salem",
+      "content": "We provide comprehensive occupational health screening and all required medical fitness services through the Salem system, ensuring your workforce complies with all health and safety regulations efficiently."
+    },
+    {
+      "key": "business-setup",
+      "title": "Business Setup",
+      "content": "Our team offers end-to-end assistance for setting up your new business in Dubai. From initial approvals to final registration, we guide you through every step of the process for a smooth launch."
+    },
+    {
+      "key": "tax-consultancy",
+      "title": "Tax Consultancy",
+      "content": "Stay compliant with our expert tax consultancy services. We provide professional advice and assistance for VAT registration, filing, and other tax-related obligations to keep your business in good standing."
+    },
+    {
+      "key": "accounting",
+      "title": "Accounting Services",
+      "content": "Ensure financial accuracy and clarity with our professional accounting and bookkeeping services. We manage your financial records meticulously, allowing you to focus on growing your business."
+    }
+  ],
+  "about_cta": {
+    "title": "We always want to connect with our clients",
+    "desc": "Al Garhoud Center makes government services accessible and beneficial for everyone and we look forward to assisting you in achieving your goals.",
+    "website_label": "Website:",
+    "email_label": "Email:",
+    "phone_label": "Phone:"
+  },
+  "other_services": {
+    "title": "Explore Other Services"
+  },
+  "accounting_page": {
+    "header_title": "Accounting & Assurance",
+    "header_subtitle": "Professional bookkeeping, auditing, and financial advisory services.",
+    "services": [
+      {
+        "title": "Bookkeeping & Accounting",
+        "items": [
+          "Daily / Monthly / Quarterly Bookkeeping",
+          "Accounts Payable & Receivable Management",
+          "General Ledger Maintenance",
+          "Bank Reconciliation",
+          "Cash Flow Monitoring",
+          "Payroll Accounting",
+          "Fixed Asset Register Maintenance",
+          "Inventory Accounting",
+          "MIS Reporting",
+          "Financial Statement Preparation (Monthly / Annual)"
+        ]
+      },
+      {
+        "title": "Audit & Assurance Services",
+        "items": [
+          "External Statutory Audit",
+          "Internal Audit",
+          "Management Audit",
+          "Forensic Audit",
+          "Compliance Audit",
+          "Stock Audit",
+          "Liquidation Audit",
+          "IFRS Compliance Review",
+          "Due Diligence Review",
+          "Agreed-Upon Procedures (AUP)"
+        ]
+      },
+      {
+        "title": "Financial Reporting & Advisory",
+        "items": [
+          "IFRS Implementation",
+          "Financial Statement Preparation",
+          "Consolidated Financial Statements",
+          "Budgeting & Forecasting",
+          "Financial Modelling",
+          "Cash Flow Projections",
+          "Business Valuation",
+          "Feasibility Studies",
+          "Ratio Analysis & Performance Review"
+        ]
+      }
+    ],
+    "form": {
+      "title": "Free Consultation",
+      "name_label": "Name *",
+      "phone_label": "Phone No*",
+      "phone_placeholder": "050 123 4567",
+      "email_label": "Email *",
+      "service_label": "Service Required *",
+      "turnover_label": "What is your company’s annual turnover? *",
+      "message_label": "Message *",
+      "submit_button": "Submit",
+      "service_options": [
+        "Accounting Services",
+        "Tax Consultancy",
+        "Business Setup"
+      ],
+      "turnover_options": [
+        "0-150K AED",
+        "150K-500K AED",
+        "500K-1M AED",
+        "1M-5M AED",
+        "5M+ AED"
+      ],
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "amer_page": {
+    "header_title": "Amer Services",
+    "header_subtitle": "Complete Amer services for visa renewal, cancellation, and modifications.",
+    "steps": [
+      { "id": "offer_letter", "label": "Offer Letter, Work Permit, Contract" },
+      { "id": "insurance", "label": "Insurance (+40 AED)" },
+      { "id": "labor_1", "label": "Labor Payment - Category 1", "group": "labor" },
+      { "id": "labor_2", "label": "Labor Payment - Category 2", "group": "labor" },
+      { "id": "labor_3", "label": "Labor Payment - Category 3", "group": "labor" },
+      { "id": "entry_permit", "label": "Entry Permit" },
+      { "id": "change_status", "label": "Change Status" },
+      { "id": "emirates_id", "label": "Emirates ID Typing" },
+      { "id": "medical_test", "label": "Medical Test - DHA" },
+      { "id": "visa_stamping", "label": "Visa Stamping" },
+      { "id": "contract_submission", "label": "Contract Submission" }
+    ],
+    "table_headers": {
+      "step": "Step",
+      "inside": "Inside (AED)",
+      "outside": "Outside (AED)"
+    },
+    "totals": {
+      "inside": "Total - Inside (AED)",
+      "outside": "Total - Outside (AED)"
+    },
+    "form": {
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number *",
+      "email_placeholder": "Email Address *",
+      "option_placeholder": "--Please Choose An Option--",
+      "option_inside": "Inside Country",
+      "option_outside": "Outside Country",
+      "submit_button": "Submit",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    },
+    "note": "Note: In the event that the labor payment is selected under Category 2, but the actual classification corresponds to Category 1 or Category 3, the applicable charges may be subject to adjustment."
+  },
+  "business_setup_page": {
+    "header_title": "Business Setup",
+    "header_subtitle": "Comprehensive assistance for setting up your new business in Dubai.",
+    "intro": "We specialize in setting up business mainland and Freezones in UAE, Bahrain, Qatar, KSA and EGYPT by providing following services:",
+    "services": [
+      {
+        "title": "Company Formation & Structuring",
+        "items": [
+          "Mainland company formation (via Dubai Department of Economy and Tourism or respective emirate authority)",
+          "Free Zone company formation (e.g., DMCC, IFZA, Dubai Silicon Oasis Authority)",
+          "Offshore company incorporation",
+          "Sole Establishment formation",
+          "Civil Company setup",
+          "Branch of Local / Foreign Company registration",
+          "Legal structure advisory (LLC, FZE, FZCO, PJSC, etc.)",
+          "Activity selection & approval"
+        ]
+      },
+      {
+        "title": "Trade License Services",
+        "items": [
+          "Commercial License",
+          "Professional License",
+          "Industrial License",
+          "E-commerce License",
+          "Consultancy License",
+          "Freelance Permit",
+          "License Renewal",
+          "License Amendment (activity change, name change)",
+          "License Upgrade / Downgrade",
+          "License Cancellation"
+        ]
+      },
+      {
+        "title": "Name Reservation & Initial Approvals",
+        "items": [
+          "Trade Name Reservation",
+          "Initial Approval Certificate",
+          "MOA (Memorandum of Association) drafting",
+          "LSA (Local Service Agent) agreement (if required)",
+          "Notarization & legal documentation"
+        ]
+      },
+      {
+        "title": "Visa & Immigration Services",
+        "subtitle": "(Handled through authorities like General Directorate of Residency and Foreigners Affairs)",
+        "items": [
+          "Establishment Card (Immigration Card)",
+          "Partner/Investor Visa",
+          "Employment Visa",
+          "Family Visa",
+          "Visa Quota Approval",
+          "Entry Permit Processing",
+          "Status Change",
+          "Medical Fitness Coordination",
+          "Emirates ID Processing",
+          "Visa Stamping",
+          "Visa Renewal / Cancellation"
+        ]
+      },
+      {
+        "title": "Labour & MOHRE Services",
+        "subtitle": "(Through Ministry of Human Resources and Emiratisation)",
+        "items": [
+          "Labour Establishment Card",
+          "Employment Contract Preparation",
+          "Offer Letter Submission",
+          "Work Permit Issuance",
+          "Labour Quota Approval",
+          "WPS Registration",
+          "Labour Contract Amendment",
+          "Labour Card Cancellation"
+        ]
+      },
+      {
+        "title": "Corporate Banking Assistance",
+        "items": [
+          "Bank account opening support",
+          "KYC documentation preparation",
+          "Business plan drafting (if required by bank)",
+          "Compliance documentation support"
+        ]
+      },
+      {
+        "title": "Office & Infrastructure Setup",
+        "items": [
+          "Ejari Registration (for mainland)",
+          "Virtual Office Solutions",
+          "Flexi-desk arrangements (Free Zones)",
+          "Physical Office Leasing",
+          "Warehouse leasing",
+          "PO Box registration"
+        ]
+      },
+      {
+        "title": "Compliance & Post-Setup Services",
+        "items": [
+          "VAT Registration (via Federal Tax Authority)",
+          "Corporate Tax Registration",
+          "Accounting & Bookkeeping",
+          "ESR Filing (Economic Substance Regulations)",
+          "UBO Declaration",
+          "Annual Audit Coordination",
+          "Customs Code Registration",
+          "Municipality approvals",
+          "Chamber of Commerce registration"
+        ]
+      },
+      {
+        "title": "Value-Added Services",
+        "items": [
+          "Trademark Registration",
+          "Document Attestation",
+          "Translation Services",
+          "PRO Services",
+          "Insurance Assistance",
+          "Business Plan Preparation",
+          "Market Entry Advisory"
+        ]
+      }
+    ],
+    "form": {
+      "title": "Free Consultation",
+      "name_label": "Name *",
+      "phone_label": "Phone No*",
+      "phone_placeholder": "050 123 4567",
+      "email_label": "Email *",
+      "service_label": "Service Required *",
+      "turnover_label": "What is your company’s annual turnover? *",
+      "message_label": "Message *",
+      "submit_button": "Submit",
+      "service_options": [
+        "Business Setup",
+        "Accounting Services",
+        "Tax Consultancy"
+      ],
+      "turnover_options": [
+        "0-150K AED",
+        "150K-500K AED",
+        "500K-1M AED",
+        "1M-5M AED",
+        "5M+ AED"
+      ],
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "dha_page": {
+    "header_title": "Dubai Health (DHA)",
+    "header_subtitle": "Medical fitness typing and all necessary approvals handled seamlessly.",
+    "pricing": [
+      { "title": "Normal (24 HR)" },
+      { "title": "Express (6 HR)" },
+      { "title": "VIP (2 HR)" },
+      { "title": "Tawajood" }
+    ],
+    "pricing_gov_fee": "Government Fee:",
+    "pricing_typing_fee": "Typing Fee:",
+    "pricing_total": "Govt Fee (Incl. Typing Fee):",
+    "btn_book": "Book appointment",
+    "btn_enquire": "Enquire",
+    "faq": [
+      {
+        "question": "What is the DHA medical test?",
+        "answer": "It is a mandatory medical fitness test required for residency, employment, or visa renewal in Dubai. It checks for infectious diseases that may affect public health."
+      },
+      {
+        "question": "Who needs to take the DHA medical test?",
+        "answer": "Anyone applying for a new residence visa or renewing an existing one in Dubai, including domestic workers, professionals, and dependents."
+      },
+      {
+        "question": "What does the DHA medical test include?",
+        "answer": "Blood test (to check for infectious diseases like HIV, Hepatitis B & C) and Chest X-ray (to check for tuberculosis - TB)."
+      },
+      {
+        "question": "Is fasting required before the test?",
+        "answer": "No, fasting is not required for the DHA medical test."
+      },
+      {
+        "question": "How do I book an appointment for the DHA medical test?",
+        "answer": "You can book online via our booking form on this page or contact us for assistance."
+      }
+    ],
+    "form": {
+      "tab_book": "Book appointment",
+      "tab_enquire": "Enquire",
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number",
+      "email_placeholder": "Email Address *",
+      "option_placeholder": "-Please Choose An Option-",
+      "date_placeholder": "dd/mm/yyyy",
+      "submit_button": "Submit",
+      "enquiry_submit_button": "Send enquiry",
+      "enquiry_no_service_alert": "Please select a service to enquire about.",
+      "notes_placeholder": "Any additional notes (optional)",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "salem_page": {
+    "header_title": "Salem",
+    "header_subtitle": "Occupational health screening and all medical fitness services.",
+    "pricing": [
+      { "title": "Normal (24 HR)" },
+      { "title": "Express (6 HR)" },
+      { "title": "VIP (2 HR)" },
+      { "title": "Tawajood" }
+    ],
+    "pricing_gov_fee": "Government Fee:",
+    "pricing_typing_fee": "Typing Fee:",
+    "pricing_total": "Govt Fee (Incl. Typing Fee):",
+    "btn_book": "Book appointment",
+    "btn_enquire": "Enquire",
+    "faq": [
+      {
+        "question": "What is the DHA medical test?",
+        "answer": "It is a mandatory medical fitness test required for residency, employment, or visa renewal in Dubai. It checks for infectious diseases that may affect public health."
+      },
+      {
+        "question": "Who needs to take the DHA medical test?",
+        "answer": "Anyone applying for a new residence visa or renewing an existing one in Dubai, including domestic workers, professionals, and dependents."
+      },
+      {
+        "question": "What does the DHA medical test include?",
+        "answer": "Blood test (to check for infectious diseases like HIV, Hepatitis B & C) and Chest X-ray (to check for tuberculosis - TB)."
+      },
+      {
+        "question": "Is fasting required before the test?",
+        "answer": "No, fasting is not required for the DHA medical test."
+      },
+      {
+        "question": "How do I book an appointment for the DHA medical test?",
+        "answer": "You can book online via our booking form on this page or contact us for assistance."
+      }
+    ],
+    "form": {
+      "tab_book": "Book appointment",
+      "tab_enquire": "Enquire",
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number",
+      "email_placeholder": "Email Address *",
+      "option_placeholder": "-Please Choose An Option-",
+      "date_placeholder": "dd/mm/yyyy",
+      "submit_button": "Submit",
+      "enquiry_submit_button": "Send enquiry",
+      "enquiry_no_service_alert": "Please select a service to enquire about.",
+      "notes_placeholder": "Any additional notes (optional)",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "notary_page": {
+    "header_title": "Notary Public",
+    "header_subtitle": "Book legal appointments and get government certified true copies.",
+    "services": [
+      { "number": "01", "title": "Power of Attorney (POA)", "description": "Authorize someone to act on your behalf legally, with general or specific powers." },
+      { "number": "02", "title": "Declaration & Affidavits", "description": "Submit personal or legal declarations attested by an official notary." },
+      { "number": "03", "title": "Memorandum of Understanding", "description": "Document mutual agreements between parties before final contracts." },
+      { "number": "04", "title": "Partnership Agreements", "description": "Define and notarize business terms between partners in a clear legal format." },
+      { "number": "05", "title": "Sale & Purchase Contracts", "description": "Legally bind buyer and seller terms for property, goods, or assets." },
+      { "number": "06", "title": "Legal Translations", "description": "Accurately translate and notarize documents as required by UAE law." }
+    ],
+    "faq": [
+      { "question": "What is Dubai Courts?", "answer": "Dubai Courts is the official judicial authority in the Emirate of Dubai, handling various legal disputes including civil, criminal, family, commercial, real estate, labor, and inheritance matters." },
+      { "question": "What services does Dubai Courts provide?", "answer": "Dubai Courts operate across three main levels:\n\nCourt of First Instance\nCourt of Appeal\nCourt of Cassation (Supreme Court level)" },
+      { "question": "How can I file a case in Dubai Courts?", "answer": "You may personally visit Karama Business Center near Central Post Office Karama or enquire by using the above submission for or WhatsApp: 04-3991744" },
+      { "question": "What documents are required to file a case?", "answer": "Generally:\n\nEmirates ID and passport copies\nLegal documents (contracts, evidence, etc.)\nPOA (if filing through a lawyer)\nPayment of court fees (varies by case type)" },
+      { "question": "Can I track my case online?", "answer": "Yes." },
+      { "question": "What kinds of cases are handled by Dubai Courts?", "answer": "Dubai Courts handle:\n\nCivil cases (contract disputes, debt recovery, property)\nCriminal cases (theft, fraud, assault, etc.)\nFamily cases (divorce, alimony, custody)\nLabor cases (unpaid wages, unfair dismissal)\nCommercial and real estate cases\nInheritance and wills" },
+      { "question": "Can I file a labor case directly at Dubai Courts?", "answer": "No. Labor disputes must first go through the MOHRE (Ministry of Human Resources and Emiratisation) for mediation. If unresolved, MOHRE refers the case to Dubai Courts." },
+      { "question": "How long does a case take in Dubai Courts?", "answer": "Timelines vary by case:\n\nCivil/Labor: ~2–6 months\nFamily cases: ~1–3 months\nAppeals or Cassation: Can take longer depending on complexity" },
+      { "question": "Can I represent myself in court?", "answer": "Yes. In civil and minor cases, individuals can self-represent. However, legal representation is strongly advised for complex or criminal cases." },
+      { "question": "What language is used in Dubai Courts?", "answer": "All court proceedings are in Arabic. Legal documents must be translated to Arabic by a certified translator." },
+      { "question": "Is legal aid available in Dubai Courts?", "answer": "Yes. Dubai Courts offers pro bono legal aid for those who qualify (e.g., low-income individuals in specific case types)." }
+    ],
+    "form": {
+      "title": "Book an Appointment",
+      "book_button": "Book appointment",
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number *",
+      "email_placeholder": "Email Address *",
+      "option_placeholder": "—Please choose an option—",
+      "submit_button": "Submit",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your appointment request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "tawjeeh_page": {
+    "header_title": "Taw-Jeeh Services",
+    "header_subtitle": "All Ministry of Labour and Taw-Jeeh services handled professionally.",
+    "process_title": "Step by step Process",
+    "process_steps": [
+      { "step": "01", "title": "Register for Tawjeeh", "description": "We schedule your Tawjeeh session on your behalf." },
+      { "step": "02", "title": "Document Submission", "description": "Passport copy, Visa copy, Emirates ID (if available), Labor contract or offer letter etc." },
+      { "step": "03", "title": "Select Language", "description": "Customer chooses preferred session language (Arabic / English / Urdu etc.)." },
+      { "step": "04", "title": "Attend the Seminar", "description": "Customer attends Tawjeeh class at the selected center. Duration: approximately 45–60 minutes." },
+      { "step": "05", "title": "Receive Completion Certificate", "description": "Completion is updated in the MOHRE (Ministry of Human Resources & Emiratisation) system automatically." }
+    ],
+    "faq": [
+      { "question": "What is Tawjeeh?", "answer": "Tawjeeh is a MOHRE-approved service center that provides awareness and orientation services to employees and employers about UAE labor laws, employment rights, and responsibilities." },
+      { "question": "What services does Tawjeeh provide?", "answer": "Tawjeeh centers offer:\n\nEmployment contract guidance\nOffer letter issuance and signing\nLabor complaints registration\nLegal consultation regarding labor rights\nPre-employment orientation sessions\nAttestation of job offers and employment contracts" },
+      { "question": "Who should visit a Tawjeeh center?", "answer": "New employees (for mandatory orientation before signing a labor contract)\nEmployers and PROs (for processing labor contracts and related services)\nEmployees facing labor disputes or needing legal guidance" },
+      { "question": "Is visiting Tawjeeh mandatory for all new employees?", "answer": "Yes. For private sector jobs under MOHRE, all new expatriate employees must attend a mandatory awareness session before contract finalization." },
+      { "question": "Can I get my labor contract from Tawjeeh?", "answer": "Yes. You can collect, review, and even sign your labor contract at Tawjeeh centers after attending the orientation." },
+      { "question": "Can Tawjeeh help resolve labor complaints?", "answer": "Yes. Tawjeeh can register complaints and forward them to MOHRE. They also offer initial legal guidance and may help resolve disputes amicably before legal escalation." },
+      { "question": "Is Tawjeeh the same as Tasheel?", "answer": "No.\n\nTawjeeh focuses on education, awareness, and legal advice.\nTasheel handles processing and typing of labor documents like work permits, contract modifications, etc." },
+      { "question": "What documents are needed for Tawjeeh services?", "answer": "Generally:\n\nValid Emirates ID\nPassport copy\nVisa copy\nMOHRE offer letter or contract (if applicable)" },
+      { "question": "What are the working hours of Karama Business Center?", "answer": "Our center operate from 8:00 AM to 8:00 PM, Monday to Saturday." },
+      { "question": "Do I need an appointment for Tawjeeh services?", "answer": "Usually, yes — especially for orientation sessions. You can book through the above submission form or Call/WhatsApp: 04-3991744" },
+      { "question": "Are Tawjeeh services free?", "answer": "Most orientation services are free for employees. However, employers may be charged for contract attestations or other processing depending on the service." },
+      { "question": "What languages are Tawjeeh services offered in?", "answer": "Tawjeeh centers provide services in multiple languages including Arabic, English, Hindi, Urdu, and Tagalog, to ensure clear communication with workers." }
+    ],
+    "form": {
+      "tab_book": "Book appointment",
+      "tab_enquire": "Enquire",
+      "name_placeholder": "Full Name *",
+      "email_placeholder": "Email Address *",
+      "phone_placeholder": "Phone Number *",
+      "date_label": "Session attending date *",
+      "submit_button": "Submit Appointment",
+      "enquiry_text": "Fill the form below and we will get back to you about our Taw-Jeeh services.",
+      "enquiry_button": "Send enquiry",
+      "notes_placeholder": "Any additional notes (optional)",
+      "whatsapp_message": "I would like to enquire about the Taw-Jeeh service.",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "tax_consultancy_page": {
+    "header_title": "Tax Consultancy",
+    "header_subtitle": "Expert advice and professional services for your VAT and corporate tax needs.",
+    "services": [
+      "UAE Tax Agent Services",
+      "VAT Registration Services in Dubai",
+      "VAT Compliance in UAE",
+      "VAT Return Filing Assistance",
+      "VAT Deregistration in UAE",
+      "Excise Tax Registration – UAE",
+      "Excise Compliance Services",
+      "Excise Advisory Services",
+      "Bookkeeping & Accounting Outsourcing",
+      "Accounting Review Services Dubai, UAE",
+      "MIS Reporting Services in Dubai",
+      "Bookkeeping Services in Saudi Arabia",
+      "Avail Expert VAT Services in UAE",
+      "International Taxation Consultants in Dubai, UAE",
+      "Tax Residency Certification Assistance",
+      "Economic Substance Regulations, UAE",
+      "Payroll Services in Dubai",
+      "Payroll Services in Qatar",
+      "Audit Firms in Sharjah"
+    ],
+    "form": {
+      "title": "Free Consultation",
+      "name_label": "Name *",
+      "phone_label": "Phone No*",
+      "phone_placeholder": "050 123 4567",
+      "email_label": "Email *",
+      "service_label": "Service Required *",
+      "turnover_label": "What is your company’s annual turnover? *",
+      "message_label": "Message *",
+      "submit_button": "Submit",
+      "service_options": [
+        "Tax Consultancy",
+        "Accounting Services",
+        "Business Setup"
+      ],
+      "turnover_options": [
+        "0-150K AED",
+        "150K-500K AED",
+        "500K-1M AED",
+        "1M-5M AED",
+        "5M+ AED"
+      ]
+    }
+  },
+  "typing_page": {
+    "header_title": "Typing Services",
+    "header_subtitle": "Accurate typing for visas, labor contracts, and various legal documents.",
+    "services": [
+      { "title": "Visa Typing" },
+      { "title": "Medical Typing" },
+      { "title": "Emirates ID Typing" },
+      { "title": "Trade License" }
+    ],
+    "btn_register": "Register",
+    "btn_enquire": "Enquire",
+    "form": {
+      "tab_register": "Register",
+      "tab_enquire": "Enquire",
+      "name_placeholder": "Full Name *",
+      "email_placeholder": "Email Address *",
+      "phone_placeholder": "Phone Number *",
+      "document_type_placeholder": "- Document Type * -",
+      "upload_label": "Upload Document (optional)",
+      "notes_placeholder": "Any additional notes (optional)",
+      "submit_button": "Submit Typing Request",
+      "enquiry_option_placeholder": "-Please Choose An Option-",
+      "enquiry_button": "Send enquiry",
+      "enquiry_no_service_alert": "Please select a service to enquire about.",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your request has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "about_us_page": {
+    "breadcrumb_title": "About Us",
+    "breadcrumb_page": "About Us",
+    "area_title": "A leading government service center in the heart of Dubai",
+    "counter": [
+      { "end": 50, "suffix": "K+", "label": "Applications Processed" },
+      { "end": 98, "suffix": "%", "label": "Client Satisfaction Rate" },
+      { "end": 15, "suffix": "+", "label": "Years of Trusted Service" },
+      { "end": 80, "suffix": "+", "label": "Dedicated Team Members" }
+    ],
+    "work_area_title": "The core values behind our work",
+    "work_area_items": [
+      { "title": "Efficiency", "desc": "We are committed to streamlined processes and swift turnarounds." },
+      { "title": "Excellence", "desc": "We set high standards for our work and our dedicated team ensures quality." },
+      { "title": "Client-Focus", "desc": "We believe in providing clear guidance and support to every client." },
+      { "title": "Integrity", "desc": "We uphold the highest ethical standards in all of our interactions." }
+    ],
+    "solutions_area": {
+      "title": "Delivering the best solutions for you",
+      "desc1": "Our mission is to empower residents and businesses with streamlined solutions that increase productivity, improve decision-making and drive growth.",
+      "desc2": "Since 2008 we have been passionate about helping our clients navigate government processes. With a team of experts, we unlock your full potential and help you thrive in this dynamic city.",
+      "cta": "Get in touch"
+    }
+  },
+  "team_page": {
+    "breadcrumb_title": "Our Leadership",
+    "breadcrumb_page": "Our Leadership",
+    "ceo_message_title": "CEO's Message",
+    "ceo_message": [
+      "At Al Garhoud Center, our purpose is simple yet significant: to make government and business services accessible, reliable and efficient for every individual and organization we serve.",
+      "As a government-recognized document clearing center, we operate at the intersection of compliance, convenience and confidence. From AMER, DET, Tawjeeh, DHA and Dubai Courts services to tax consultancy, business setup and accountancy solutions, our role extends far beyond processing documents. We act as a trusted bridge between our clients and government entities, ensuring every interaction is handled with accuracy, transparency and professionalism.",
+      "In a fast-evolving regulatory environment, clarity and compliance are not optional, they are essential. Our experienced team remains consistently aligned with the latest regulations and procedural updates, enabling us to guide our clients with confidence and precision. Whether supporting entrepreneurs taking their first steps, businesses scaling operations or individuals navigating essential government services, we are committed to delivering solutions that are timely, compliant and stress-free.",
+      "As we continue to grow, our focus remains unwavering - strengthening partnerships, enhancing service quality and contributing positively to the business ecosystem of the UAE."
+    ],
+    "ceo_name": "Yasser Abdelmawla Youssef Khedr",
+    "ceo_role": "CEO - Al Garhoud Center",
+    "gm_message_title": "GM's Message",
+    "gm_message": [
+      "With an established presence across the UAE, Oman, Bahrain, Saudi Arabia, and Egypt, we work alongside entrepreneurs, SMEs and corporates as a strategic partner in business formation, expansion and ongoing operations.",
+      "Our regional expertise and structured approach allow us to deliver consistent, compliant and scalable solutions aligned with our clients' growth objectives.",
+      "As we look ahead, we remain focused on innovation, service excellence and continuous improvement, ensuring measurable value for our clients and stakeholders. Strengthening long-term relationships built on trust, transparency and performance remains central to our business philosophy.",
+      "Thank you for your continued trust in Al Garhoud Center."
+    ],
+    "gm_name": "Sameer Ali",
+    "gm_role": "GM - Al Garhoud Center"
+  },
+  "contact_us_page": {
+    "breadcrumb_title": "Contact Us",
+    "breadcrumb_page": "Contact Us",
+    "title": "Get in touch with us directly",
+    "desc": "We are here to help you! Tell us how we can help & we'll be in touch with an expert within the next 24 hours.",
+    "email_label": "Send us an email:",
+    "phone_label": "Give us a call:",
+    "follow_label": "Follow us:",
+    "form": {
+      "name_label": "Enter your name",
+      "name_placeholder": "Adam Smith",
+      "email_label": "Email address",
+      "email_placeholder": "example@gmail.com",
+      "phone_label": "Phone number",
+      "phone_placeholder": "(123) 456 - 7890",
+      "company_label": "Company",
+      "company_placeholder": "EX Facebook",
+      "message_label": "Message",
+      "message_placeholder": "Write your message here...",
+      "cta": "Send your message",
+      "loading_label": "Sending...",
+      "success_message": "Thanks! Your message has been sent.",
+      "error_message": "Sorry, something went wrong. Please try again."
+    }
+  },
+  "thank_you_page": {
+    "title": "Thanks for reaching out!",
+    "desc": "Your message has been received. We will get back to you within 24 hours.",
+    "button": "Back to homepage"
+  },
+  "gallery_page": {
+    "breadcrumb_title": "Our Gallery",
+    "breadcrumb_page": "Gallery",
+    "title": "Our Gallery"
+  },
+  "downloads_page": {
+    "breadcrumb_title": "Downloads",
+    "breadcrumb_page": "Downloads",
+    "title": "Downloads",
+    "items": [
+      {
+        "id": 1,
+        "title": "Company Profile",
+        "description": "An overview of our mission, vision, and the full range of services we offer.",
+        "url": "/assets/docs/GARHOUD-CENTRE-BROUCHER.pdf"
+      }
+    ]
+  },
+  "error_page": {
+    "title": "The page you are looking for cannot be found",
+    "button": "Go to homepage"
+  },
+  "sign_in_page": {
+    "title": "Welcome back",
+    "email_label": "Email address",
+    "email_placeholder": "example@gmail.com",
+    "password_label": "Enter Password",
+    "password_placeholder": "password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "button": "Sign in",
+    "or": "or",
+    "google_button": "Sign in with Google",
+    "facebook_button": "Sign in with Facebook",
+    "no_account_text": "Not a member yet?",
+    "no_account_link": "Sign up here"
+  },
+  "sign_up_page": {
+    "title": "Create an account",
+    "name_label": "Full name",
+    "name_placeholder": "Adam Smith",
+    "email_label": "Email address",
+    "email_placeholder": "example@gmail.com",
+    "password_label": "Create Password",
+    "password_placeholder": "password",
+    "button": "Create Account",
+    "or": "or",
+    "google_button": "Sign up with Google",
+    "facebook_button": "Sign up with Facebook",
+    "has_account_text": "Already have an account?",
+    "has_account_link": "Sign in here"
+  },
+  "reset_password_page": {
+    "title": "Reset Password",
+    "email_label": "Email address",
+    "email_placeholder": "example@gmail.com",
+    "button": "Send Reset Link",
+    "back_to_login_text": "Back to",
+    "back_to_login_link": "Sign in"
+  },
+  "blog_page": {
+    "breadcrumb_title": "Our Blog",
+    "breadcrumb_page": "Our Blog",
+    "posts": [
+      { "id": 1, "category": "Marketing", "date": "June 18, 2025", "title": "10 ways to supercharge startup with AI integration", "excerpt": "The rapid advancements in AI have paved the way for startups to revolutionize..." },
+      { "id": 2, "category": "Business", "date": "June 16, 2025", "title": "Testing AI tools to improve product descriptions", "excerpt": "Amazon is currently testing generative artificial intelligence (AI) tools for..." },
+      { "id": 3, "category": "Technology", "date": "June 14, 2025", "title": "3 best AI businesses to make money with in 2024", "excerpt": "Everyone is buzzing about AI and its potential to revolutionize the business..." },
+      { "id": 4, "category": "Solutions", "date": "June 12, 2025", "title": "Phrase gives AI-generated content for me at a glance", "excerpt": "While this is incredibly rewarding and has sharpened my editorial skills..." },
+      { "id": 5, "category": "Brand", "date": "June 18, 2025", "title": "Testing out Stabilization AI's free image editing tool", "excerpt": "Stability AI is the company that created an open-source AI image generator..." },
+      { "id": 6, "category": "Business", "date": "June 22, 2025", "title": "How to started using AI-based tools as a designer", "excerpt": "Acting on Jakob Nielsen’s stunning prediction of AI being the future..." }
+    ],
+    "pagination_next": "Next",
+    "sidebar": {
+      "search_placeholder": "Type keyword here",
+      "categories_title": "Categories:",
+      "categories": ["Business", "Development", "Technology", "Creative Director", "Uncategorized"],
+      "recent_posts_title": "Recent Posts:",
+      "recent_posts": [
+        { "date": "June 18, 2024", "title": "6 profitable AI tech businesses to start" },
+        { "date": "June 18, 2024", "title": "Why i decided to sell my B2B SaaS AI business" },
+        { "date": "June 18, 2024", "title": "8 AI tools that will your streamline" }
+      ],
+      "tags_title": "Tags:",
+      "tags": ["Marketing", "Business", "Solutions", "Studio", "Brand"],
+      "subscribe_title": "Subscribe",
+      "subscribe_desc": "Subscribe to our newsletter and get the latest news updates lifetime",
+      "subscribe_placeholder": "Enter your email address",
+      "subscribe_button": "Subscribe Now"
+    }
+  },
+  "single_blog_page": {
+    "breadcrumb_title": "Blog Details",
+    "breadcrumb_page": "Blog Details",
+    "meta_category": "Business",
+    "meta_date": "June 18, 2024",
+    "title": "10 ways to supercharge your startup with AI integration: unlock exponential growth",
+    "p1": "The rapid advancements in AI have paved the way for startups to revolutionize their businesses. This article explores 10 key ways AI can be integrated into startups and provides real-world examples of its tangible impact across industries.",
+    "h_support": "1. AI-Powered Customer Support",
+    "p_support": "AI chatbots and virtual assistants can handle routine queries, troubleshoot issues, and guide users, improving response times. This frees up human agents to tackle complex tasks, enhancing user experience.",
+    "h_maintenance": "2. Predictive Maintenance",
+    "p_maintenance": "By analyzing usage patterns, ML algorithms can predict failures, enabling proactive maintenance and minimizing downtime.",
+    "h_cybersecurity": "3. Enhanced Cybersecurity",
+    "p_cybersecurity": "AI anomaly detection, behavior analysis, and intrusion prevention boost security and data protection. This safeguards infrastructure and builds user trust..",
+    "h_takeaways": "Key Takeaways for Founders",
+    "takeaways_list": [
+      "Start with chatbots, workflow automation, and basic analytics.",
+      "Gradually scale AI adoption as the business matures.",
+      "Identify the right AI use cases to solve pressing needs.",
+      "Integrate AI into workflows and processes seamlessly.",
+      "Get creative — leverage partnerships and talent from outside."
+    ],
+    "p_final": "The key to startup success is focusing AI efforts on the applications that will differentiate your business and have the biggest impact at each stage of growth. With the right strategy, ",
+    "tags_title": "Tags:",
+    "tags": ["Business", "Solutions"],
+    "likes": "175",
+    "comments": "23",
+    "comments_title": "Comments:",
+    "reply_button": "Reply",
+    "comment_form_title": "Leave a comments:",
+    "comment_form_name_label": "Enter your name",
+    "comment_form_name_placeholder": "Adam Smith",
+    "comment_form_email_label": "Email address",
+    "comment_form_email_placeholder": "example@gmail.com",
+    "comment_form_message_label": "Message",
+    "comment_form_message_placeholder": "Write your message here...",
+    "comment_form_submit_button": "Send your message"
+  },
+  "single_service_page": {
+    "breadcrumb_title": "Services Details",
+    "breadcrumb_page": "Services Details",
+    "details_area": {
+      "title": "Analyze any data perfectly with AI",
+      "desc": "AI data analysis, also known as artificial intelligence data analysis or AI-driven data analysis, refers to the process of using artificial intelligence and machine learning techniques.",
+      "box1_title": "Data Preprocessing",
+      "box1_desc": "AI data analysis can begin, and raw data must be collected, cleaned.",
+      "box2_title": "Predictive Analytics",
+      "box2_desc": "Algorithms use historical data to forecast future trends, behaviors."
+    },
+    "industry_use": {
+        "title": "Widely used throughout the industry for work",
+        "item1_title": "1. Businesses and Corporations:",
+        "item1_desc": "Businesses use AI data analysis to gain competitive advantages, optimize operations, & make data-driven decisions. This includes industries such as retail, finance, manufacturing.",
+        "item2_title": "2. Data Scientists and Analysts:",
+        "item2_desc": "Data scientists and analysts leverage AI tools and algorithms to extract actionable insights from large datasets. They alsouse AI for predictive modeling, anomaly detection, and data visualization.",
+        "item3_title": "3. Government and Public Sector:",
+        "item3_desc": "Government agencies use AI data analysis for various purposes, including public policy development, law enforcement, urban planning, and disaster."
+    },
+    "video_area": {
+      "title": "Streamlining Your Government Transactions",
+      "desc": "As the city grows, so do your needs. We continuously adapt to offer the most current and efficient services, ensuring that your official requirements are met with unparalleled professionalism and speed.",
+      "counter1_val": "18y",
+      "counter1_label": "Innovative services",
+      "counter2_val": "70+",
+      "counter2_label": "Dedicated Workforce"
+    },
+    "info_area": {
+      "title": "Manage large amounts of data",
+      "desc": "AI data analysis also can handle vast amounts of data, making it suitable for big data environments. Data analysis can automate many aspects of data processing and analysis",
+      "box1_title": "Real-Time Analysis",
+      "box1_desc": "Some AI data analysis solutions are design to process making instant.",
+      "box2_title": "Automation",
+      "box2_desc": "his leads to increased efficiency and quicker decision-making."
+    }
+  },
+  "trial_pricing_page": {
+    "pricing": [
+      { "title": "Normal (24 HR)", "govFee": 270, "typingFee": 52.5, "total": 322.5 },
+      { "title": "Express (6 HR)", "govFee": 700, "typingFee": 52.5, "total": 752.5 },
+      { "title": "VIP (2 HR)", "govFee": 1020, "typingFee": 52.5, "total": 1072.5 },
+      { "title": "Tawajood", "govFee": 1020, "typingFee": 52.5, "total": 1072.5 }
+    ],
+    "gov_fee_label": "Government Fee:",
+    "typing_fee_label": "Typing Fee:",
+    "total_fee_label": "Govt Fee (Incl. Typing Fee):",
+    "book_button": "Book appointment",
+    "enquire_button": "Enquire",
+    "additional_info": [
+      "Female Household Domestic Servant Fee 50 dh more",
+      "Fast Track Service also available"
+    ],
+    "faq": [
+      { "question": "What is the DHA medical test?", "answer": "It is a mandatory medical fitness test required for residency, employment, or visa renewal in Dubai. It checks for infectious diseases that may affect public health." },
+      { "question": "Who needs to take the DHA medical test?", "answer": "Anyone applying for a new residence visa or renewing an existing one in Dubai, including domestic workers, professionals, and dependents." },
+      { "question": "What does the DHA medical test include?", "answer": "Blood test (to check for infectious diseases like HIV, Hepatitis B & C) and Chest X-ray (to check for tuberculosis - TB)." },
+      { "question": "Is fasting required before the test?", "answer": "No, fasting is not required for the DHA medical test." },
+      { "question": "How do I book an appointment for the DHA medical test?", "answer": "You can book online via our booking form on this page or contact us for assistance." }
+    ],
+    "form": {
+      "tab_book": "Book appointment",
+      "tab_enquire": "Enquire",
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number",
+      "email_placeholder": "Email Address *",
+      "option_placeholder": "-Please Choose An Option-",
+      "date_placeholder": "dd/mm/yyyy",
+      "submit_button": "Submit"
+    }
+  }
+}
