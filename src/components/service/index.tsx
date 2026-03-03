@@ -7,27 +7,25 @@ import FaqHomeOne from "../homes/home-1/FaqHomeOne";
 import ServiceTabs from "./ServiceTabs";
 import AboutCta from "../about-us/AboutCta";
 
-
-
-export default function Service() {
+export default function Service({ dictionary, lang }: { dictionary: any; lang: string }) {
   return (
     <Wrapper>
-      <HeaderOne />
+      <HeaderOne dictionary={dictionary} lang={lang} />
       <div id="smooth-wrapper">
         <div id="smooth-content" style={{ paddingTop: '120px' }}>
           <section className="azzle-section-padding pb-0">
             <div className="container">
               <div className="azzle-section-title center max-width-780" data-aos="fade-up" data-aos-delay="500">
-                <h2>A World of Services at Your Fingertips</h2>
+                <h2>{dictionary.service_page.title}</h2>
               </div>
             </div>
           </section>
           <Suspense fallback={<div>Loading...</div>}>
-            <ServiceTabs />
+            <ServiceTabs dictionary={dictionary.service_tabs} />
           </Suspense>
-          <FaqHomeOne />
-          <AboutCta />
-          <FooterOne />
+          <FaqHomeOne dictionary={dictionary.faq} lang={lang} />
+          <AboutCta dictionary={dictionary.about_cta} />
+          <FooterOne dictionary={dictionary.footer} lang={lang} />
         </div>
       </div>
     </Wrapper>

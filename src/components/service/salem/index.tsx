@@ -5,20 +5,20 @@ import Wrapper from "@/layouts/Wrapper";
 import SalemArea from "./SalemArea";
 import ServicePageHeader from "../ServicePageHeader";
 
-export default function Salem() {
+export default function Salem({ dictionary, lang }: { dictionary: any; lang: string }) {
   return (
     <Wrapper>
-      <HeaderOne />
+      <HeaderOne dictionary={dictionary} lang={lang} />
       <div id="smooth-wrapper">
         <div id="smooth-content" style={{ paddingTop: '120px' }}>
           <ServicePageHeader
             logoSrc="/assets/images/service/salem.jpg"
             logoAlt="Salem"
-            title="Salem"
-            subtitle="Occupational health screening and all medical fitness services."
+            title={dictionary.salem_page.header_title}
+            subtitle={dictionary.salem_page.header_subtitle}
           />
-          <SalemArea />
-          <FooterOne />
+          <SalemArea dictionary={dictionary.salem_page} />
+          <FooterOne dictionary={dictionary.footer} lang={lang} />
         </div>
       </div>
     </Wrapper>

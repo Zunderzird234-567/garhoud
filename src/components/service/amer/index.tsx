@@ -5,20 +5,20 @@ import Wrapper from "@/layouts/Wrapper";
 import AmerArea from "./AmerArea";
 import ServicePageHeader from "../ServicePageHeader";
 
-export default function Amer() {
+export default function Amer({ dictionary, lang }: { dictionary: any; lang: string }) {
   return (
     <Wrapper>
-      <HeaderOne />
+      <HeaderOne dictionary={dictionary} lang={lang} />
       <div id="smooth-wrapper">
         <div id="smooth-content" style={{ paddingTop: '120px' }}>
           <ServicePageHeader
             logoSrc="/assets/images/service/amer-logo.webp"
             logoAlt="Amer"
-            title="Amer Services"
-            subtitle="Complete Amer services for visa renewal, cancellation, and modifications."
+            title={dictionary.amer_page.header_title}
+            subtitle={dictionary.amer_page.header_subtitle}
           />
-          <AmerArea />
-          <FooterOne />
+          <AmerArea dictionary={dictionary.amer_page} />
+          <FooterOne dictionary={dictionary.footer} lang={lang} />
         </div>
       </div>
     </Wrapper>

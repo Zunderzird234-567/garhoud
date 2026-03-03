@@ -8,18 +8,19 @@ import ServiceInfo from "./ServiceInfo";
 import AboutCta from "../about-us/AboutCta";
 
 
-export default function SingleService() {
+export default function SingleService({ dictionary, lang }: { dictionary: any; lang: string }) {
+  const pageDict = dictionary.single_service_page;
   return (
     <Wrapper>
-      <HeaderOne />
+      <HeaderOne dictionary={dictionary} lang={lang} />
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <Breacrumb title="Services Details" page="Services Details" />
-          <ServiceDetailsArea />
-          <VideoHomeOne />
-          <ServiceInfo />
-          <AboutCta />
-          <FooterOne />
+          <Breacrumb title={pageDict.breadcrumb_title} page={pageDict.breadcrumb_page} dictionary={dictionary} lang={lang} />
+          <ServiceDetailsArea dictionary={pageDict} />
+          <VideoHomeOne dictionary={pageDict.video_area} />
+          <ServiceInfo dictionary={pageDict.info_area} />
+          <AboutCta dictionary={dictionary.about_cta} />
+          <FooterOne dictionary={dictionary.footer} lang={lang} />
         </div>
       </div>
     </Wrapper>
