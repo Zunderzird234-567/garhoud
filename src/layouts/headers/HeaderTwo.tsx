@@ -7,7 +7,7 @@ import MobileMenu from "./MobileMenu";
 import { useState } from "react";
 
 
-export default function HeaderTwo() {
+export default function HeaderTwo({ dictionary, lang }: { dictionary: any; lang: string }) {
   const { hidden, sticky } = UseSticky();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,7 +19,7 @@ export default function HeaderTwo() {
           <div className="row gx-3 align-items-center justify-content-between">
             <div className="col-8 col-sm-auto ">
               <div className="header-logo">
-                <Link href="/">
+                <Link href={`/${lang}`}>
                   <img src="/assets/images/logo-white.svg" alt="logo" style={{ width: '250px' }} />
                 </Link>
               </div>
@@ -27,7 +27,7 @@ export default function HeaderTwo() {
             <div className="col">
               <div className="azzle-main-menu-item">
                 <nav className="main-menu menu-style1 custom-breakpoint menu-left text-align-left">
-                  <Navmenu menu_style={true} />
+                  <Navmenu menu_style={true} dictionary={dictionary} lang={lang} />
                 </nav>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function HeaderTwo() {
           </div>
         </div>
       </header>
-      <MobileMenu setIsOpen={setIsOpen} isOpen={isOpen} />
+      <MobileMenu setIsOpen={setIsOpen} isOpen={isOpen} dictionary={dictionary} lang={lang} />
 
     </>
   )
