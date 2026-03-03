@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
-import type { Locale } from "@/i18n-config";
+import { i18n, type Locale } from "@/i18n-config";
 
 type Props = {
   params: Promise<{ lang: Locale }>;
