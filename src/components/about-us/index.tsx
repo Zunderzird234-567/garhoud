@@ -9,22 +9,19 @@ import AboutCta from "./AboutCta";
 import FooterOne from "@/layouts/footers/FooterOne";
 import DividerArea from "@/common/DividerArea";
 
- 
-
-export default function Aboutus() {
+export default function Aboutus({ dictionary, lang }: { dictionary: any; lang: string }) {
   return (
     <Wrapper>
-      <HeaderOne />
+      <HeaderOne dictionary={dictionary} lang={lang} />
       <div id="smooth-wrapper">
         <div id="smooth-content" style={{ paddingTop: '120px' }}>
-          
-          <AboutArea />
-          <AboutCounter />
+          <AboutArea dictionary={dictionary.about_us_page} />
+          <AboutCounter dictionary={dictionary.about_us_page} />
           <DividerArea className="divider-about-us" dividerClass="divider2" />
-          <OurWorkArea />
-          <SolutionsArea />
-          <AboutCta />
-          <FooterOne />         
+          <OurWorkArea dictionary={dictionary.about_us_page} />
+          <SolutionsArea dictionary={dictionary.about_us_page} />
+          <AboutCta dictionary={dictionary.about_cta} />
+          <FooterOne dictionary={dictionary.footer} lang={lang} />         
         </div>
       </div>
     </Wrapper>
