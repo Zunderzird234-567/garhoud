@@ -1,11 +1,9 @@
 import Link from "next/link";
-import type { Locale } from "@/i18n-config";
-
 interface BreacrumbProps {
   title?: string;
   page?: string;
   dictionary: any;
-  lang: Locale;
+  lang: string;
 }
 
 export default function Breacrumb({ title, page, dictionary, lang }: BreacrumbProps) {
