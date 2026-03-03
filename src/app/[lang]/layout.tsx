@@ -1,4 +1,4 @@
-import { i18n, Locale } from "@/i18n-config";
+import { i18n } from "@/i18n-config";
 import { ReactNode } from "react";
 
 export async function generateStaticParams() {
@@ -10,7 +10,7 @@ export default async function LangLayout({
   params,
 }: Readonly<{
   children: ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }>) {
   const { lang } = await params;
   // This layout is nested within src/app/layout.tsx.
