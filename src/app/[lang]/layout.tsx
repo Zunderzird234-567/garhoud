@@ -12,7 +12,7 @@ export default async function LangLayout({
   children: ReactNode;
   params: Promise<{ lang: string }>;
 }>) {
-  const { lang } = await params;
+  const { lang } = (await params) ?? { lang: i18n.defaultLocale };
   // This layout is nested within src/app/layout.tsx.
   // It wraps the content in a div with the correct language direction.
   return (

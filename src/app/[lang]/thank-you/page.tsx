@@ -2,7 +2,7 @@ import FooterOne from "@/layouts/footers/FooterOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
 import { getDictionary } from "@/lib/get-dictionary";
-import { Locale } from "@/i18n-config";
+import { i18n, Locale } from "@/i18n-config";
 import Link from "next/link";
 
 type Props = {
@@ -10,7 +10,7 @@ type Props = {
 };
 
 export default async function ThankYouPage({ params }: Props) {
-  const { lang } = await params;
+  const { lang } = (await params) ?? { lang: i18n.defaultLocale };
   const dictionary = await getDictionary(lang);
   const content = dictionary.thank_you_page;
 

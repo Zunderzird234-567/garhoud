@@ -6,7 +6,7 @@ type Props = {
 };
 
 export default async function MilestonesPage({ params }: Props) {
-  const { lang } = await params;
+  const { lang } = (await params) ?? { lang: i18n.defaultLocale };
   redirect(`/${lang}`);
   return null;
 }

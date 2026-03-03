@@ -4,14 +4,14 @@ import HeaderOne from '@/layouts/headers/HeaderOne'
 import Wrapper from '@/layouts/Wrapper'
 import MessageFromLeaders from '@/components/team/MessageFromLeaders'
 import { getDictionary } from "@/lib/get-dictionary";
-import { Locale } from "@/i18n-config";
+import { i18n, Locale } from "@/i18n-config";
 
 type Props = {
   params: Promise<{ lang: Locale }>;
 };
 
 export default async function LeadershipPage({ params }: Props) {
-  const { lang } = await params;
+  const { lang } = (await params) ?? { lang: i18n.defaultLocale };
   const dictionary = await getDictionary(lang);
   return (
     <Wrapper>

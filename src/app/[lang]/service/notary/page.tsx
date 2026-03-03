@@ -6,14 +6,14 @@ import NotaryArea from "@/components/service/notary/NotaryArea";
 import ServicePageHeader from "@/components/service/ServicePageHeader";
 import OtherServicesCarousel from "@/components/service/OtherServicesCarousel";
 import { getDictionary } from "@/lib/get-dictionary";
-import { Locale } from "@/i18n-config";
+import { i18n, Locale } from "@/i18n-config";
 
 type Props = {
   params: Promise<{ lang: Locale }>;
 };
 
 export default async function NotaryPage({ params }: Props) {
-  const { lang } = await params;
+  const { lang } = (await params) ?? { lang: i18n.defaultLocale };
   const dictionary = await getDictionary(lang);
   return (
     <Wrapper>

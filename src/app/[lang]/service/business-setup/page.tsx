@@ -5,7 +5,7 @@ import Wrapper from "@/layouts/Wrapper";
 import ServicePageHeader from "@/components/service/ServicePageHeader";
 import OtherServicesCarousel from "@/components/service/OtherServicesCarousel";
 import { getDictionary } from "@/lib/get-dictionary";
-import { Locale } from "@/i18n-config";
+import { i18n, Locale } from "@/i18n-config";
 import BusinessSetupArea from "@/components/service/business-setup/BusinessSetupArea";
 
 type Props = {
@@ -13,7 +13,7 @@ type Props = {
 };
 
 export default async function BusinessSetupPage({ params }: Props) {
-  const { lang } = await params;
+  const { lang } = (await params) ?? { lang: i18n.defaultLocale };
   const dictionary = await getDictionary(lang);
 
   return (
