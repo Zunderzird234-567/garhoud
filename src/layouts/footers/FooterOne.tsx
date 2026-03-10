@@ -82,8 +82,8 @@ export default function FooterOne({ dictionary, lang }: { dictionary: any, lang:
                   <img src="/assets/images/logo/logo-dark.svg" alt="Logo" style={{ width: '200px' }} />
                 </Link>
                 <p>{dictionary.description}</p>
-                <a href="mailto:info@algarhoudcenter.ae">
-                  <span>{dictionary.email_label}</span> info@algarhoudcenter.ae
+                <a href="mailto:info@algarhoudamercenter.ae">
+                  <span>{dictionary.email_label}</span> info@algarhoudamercenter.ae
                 </a>
                 <a href="tel:043991744">
                   <span>{dictionary.phone_label}</span> 04 399 1744

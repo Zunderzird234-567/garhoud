@@ -19,7 +19,7 @@ export default function AboutCta({ dictionary }: { dictionary: any }) {
                 <div className="azzle-contact-info">
                   <ul>
                     <li>{dictionary.website_label}<a href="">www.algarhoudcenter.ae</a></li>
-                    <li>{dictionary.email_label}<a href="">info@algarhoudcenter.ae</a></li>
+                    <li>{dictionary.email_label}<a href="">info@algarhoudamercenter.ae</a></li>
                     <li>{dictionary.phone_label}<a href="tel:043991744">04 399 1744</a></li>
                   </ul>
                 </div>

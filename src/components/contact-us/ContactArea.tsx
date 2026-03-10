@@ -82,7 +82,7 @@ export default function ContactArea({ dictionary, lang }: { dictionary: any; lan
                 <div className="azzle-contact-info-wrap">
                   <div className="azzle-contact-info-item">
                     <h5>{dictionary.email_label}</h5>
-                    <a href="mailto:info@algarhoudcenter.ae">info@algarhoudcenter.ae</a>
+                    <a href="mailto:info@algarhoudamercenter.ae">info@algarhoudamercenter.ae</a>
                   </div>
                   <div className="azzle-contact-info-item">
                     <h5>{dictionary.phone_label}</h5>
