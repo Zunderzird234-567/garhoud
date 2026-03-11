@@ -1,67 +1,40 @@
-
 "use client";
-import { useMemo, useRef, useState } from "react";
-import { useSubmitContactForm } from "@/hooks/useSubmitContactForm";
+import { useRef, useState } from "react";
+import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function NotaryArea({ dictionary }: { dictionary: any }) {
   const [selectedService, setSelectedService] = useState("");
   const formRef = useRef<HTMLDivElement>(null);
-  const { status, isSubmitting, submit } = useSubmitContactForm();
 
-  const handleBookAppointmentClick = (serviceTitle: string) => {
+  const handleServiceClick = (serviceTitle: string) => {
     setSelectedService(serviceTitle);
     if (formRef.current) {
-      const yOffset = -140; // Accounts for sticky header
+      const yOffset = -140;
       const y = formRef.current.getBoundingClientRect().top + window.scrollY + yOffset;
-      window.scrollTo({ top: y, behavior: 'smooth' });
+      window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
 
-  const statusMessage = useMemo(() => {
-    if (status === "success") return dictionary.form.success_message;
-    if (status === "error") return dictionary.form.error_message;
-    return "";
-  }, [dictionary.form.error_message, dictionary.form.success_message, status]);
-
-  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (isSubmitting) return;
 
     const form = e.currentTarget;
     const data = new FormData(form);
     const get = (key: string) => (data.get(key) || "").toString().trim();
 
-    const name = get("name");
-    const email = get("email");
-    const phone = get("phone");
-    const service = get("service");
-    const date = get("date");
+    const whatsappUrl = buildWhatsAppUrl([
+      { label: "Service", value: get("service") || dictionary.header_title || "Notary Public" },
+      { label: "Name", value: get("name") },
+      { label: "Phone", value: get("phone") },
+      { label: "Email", value: get("email") },
+      { label: "Preferred Date", value: get("date") },
+    ]);
 
-    const messageLines = [
-      service ? `Service: ${service}` : null,
-      date ? `Preferred date: ${date}` : null,
-    ].filter(Boolean);
-
-    const ok = await submit(
-      {
-        name,
-        email,
-        phone,
-        message: messageLines.join("\n") || "Notary appointment request.",
-        website: get("website"),
-        formType: dictionary.form.title || dictionary.header_title || "Appointment",
-        service: service || dictionary.header_title,
-      },
-      form
-    );
-
-    if (ok) {
-      setSelectedService("");
-    }
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
-    <section className="azzle-section-padding" style={{ paddingTop: '60px' }}>
+    <section className="azzle-section-padding" style={{ paddingTop: "60px" }}>
       <div className="container">
         <div className="trial-pricing-container">
           <div className="trial-pricing-main">
@@ -78,7 +51,7 @@ export default function NotaryArea({ dictionary }: { dictionary: any }) {
                     className="trial-btn"
                     onClick={(e) => {
                       e.preventDefault();
-                      handleBookAppointmentClick(item.title);
+                      handleServiceClick(item.title);
                     }}
                   >
                     {dictionary.form.book_button}
@@ -91,20 +64,18 @@ export default function NotaryArea({ dictionary }: { dictionary: any }) {
               {dictionary.faq.map((faq: any, index: number) => (
                 <div key={index} className="trial-faq-item">
                   <h4 className="trial-faq-question">{faq.question}</h4>
-                  <p className="trial-faq-answer" style={{ whiteSpace: 'pre-line' }}>{faq.answer}</p>
+                  <p className="trial-faq-answer" style={{ whiteSpace: "pre-line" }}>
+                    {faq.answer}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
 
           <div className="trial-pricing-sidebar" ref={formRef}>
-            <div className="trial-booking-form" style={{ position: 'sticky', top: '140px' }}>
-              <h3 style={{ textAlign: 'center', marginBottom: '2rem' }}>{dictionary.form.title}</h3>
+            <div className="trial-booking-form" style={{ position: "sticky", top: "140px" }}>
+              <h3 style={{ textAlign: "center", marginBottom: "2rem" }}>{dictionary.form.title}</h3>
               <form onSubmit={handleFormSubmit}>
-                <div className="trial-form-field" style={{ display: "none" }} aria-hidden="true">
-                  <label>Website</label>
-                  <input type="text" name="website" autoComplete="off" tabIndex={-1} />
-                </div>
                 <div className="trial-form-field">
                   <input name="name" type="text" placeholder={dictionary.form.name_placeholder} required />
                 </div>
@@ -130,12 +101,11 @@ export default function NotaryArea({ dictionary }: { dictionary: any }) {
                   </select>
                 </div>
                 <div className="trial-form-field">
-                   <input name="date" type="date" required />
+                  <input name="date" type="date" required />
                 </div>
-                <button type="submit" className="trial-submit-btn" disabled={isSubmitting}>
-                  {isSubmitting ? dictionary.form.loading_label : dictionary.form.submit_button}
+                <button type="submit" className="trial-submit-btn">
+                  {dictionary.form.whatsapp_button}
                 </button>
-                {statusMessage ? <p className="mt-3 mb-0">{statusMessage}</p> : null}
               </form>
             </div>
           </div>

@@ -15,7 +15,19 @@ export default function Navmenu({ menu_style = false, dictionary, lang }: Navmen
     <ul>
       {adjusted_menu_data.map((item, i) => (
         <li key={i} className={`${item.has_submenu ? "menu-item-has-children" : ""}`}>
-          <Link href={item.path} className={`${menu_style ? "light-color" : ""}`}>{dictionary.navigation[item.key]}</Link>
+          {item.has_submenu ? (
+            <a
+              href="#"
+              onClick={(e) => e.preventDefault()}
+              className={`${menu_style ? "light-color" : ""}`}
+            >
+              {dictionary.navigation[item.key]}
+            </a>
+          ) : (
+            <Link href={item.path} className={`${menu_style ? "light-color" : ""}`}>
+              {dictionary.navigation[item.key]}
+            </Link>
+          )}
           {item.has_submenu &&
             <ul className="sub-menu">
               {item.sub_menus?.map((sub_item, index) => {

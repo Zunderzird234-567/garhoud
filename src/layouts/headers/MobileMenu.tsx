@@ -42,7 +42,20 @@ export default function MobileMenu({ setIsOpen, isOpen, dictionary, lang }: Mobi
             <ul>
               {adjusted_menu_data.map((item, i) => (
                 <li key={i} className={`${item.title === navTitle ? 'azzle-active' : ''} ${item.has_submenu ? 'menu-item-has-children azzle-item-has-children' : ''}`}>
-                  <Link href={item.path}>{dictionary.navigation[item.key]}{item.has_submenu && <span className="azzle-mean-expand" onClick={(e) => { e.preventDefault(); openMobileMenu(item.title as string);}}></span>}</Link>
+                  {item.has_submenu ? (
+                    <a href="#" onClick={(e) => e.preventDefault()}>
+                      {dictionary.navigation[item.key]}
+                      <span
+                        className="azzle-mean-expand"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          openMobileMenu(item.title as string);
+                        }}
+                      ></span>
+                    </a>
+                  ) : (
+                    <Link href={item.path}>{dictionary.navigation[item.key]}</Link>
+                  )}
                   {item.has_submenu &&
                     <ul className={`sub-menu azzle-submenu ${item.title === navTitle ? 'azzle-open' : ''}`} style={{ display: navTitle === item.title ? "block" : "none", }}>
                       {item.sub_menus?.map((sub_item, index) => {
