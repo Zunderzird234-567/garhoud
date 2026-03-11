@@ -782,7 +782,7 @@
   "team_page": {
     "breadcrumb_title": "Our Leadership",
     "breadcrumb_page": "Our Leadership",
-    "ceo_message_title": "CEO's Message",
+    "ceo_message_title": "Partner's Message",
     "ceo_message": [
       "At Al Garhoud Center, our purpose is simple yet significant: to make government and business services accessible, reliable and efficient for every individual and organization we serve.",
       "As a government-recognized document clearing center, we operate at the intersection of compliance, convenience and confidence. From AMER, DET, Tawjeeh, DHA and Dubai Courts services to tax consultancy, business setup and accountancy solutions, our role extends far beyond processing documents. We act as a trusted bridge between our clients and government entities, ensuring every interaction is handled with accuracy, transparency and professionalism.",
@@ -790,8 +790,8 @@
       "As we continue to grow, our focus remains unwavering - strengthening partnerships, enhancing service quality and contributing positively to the business ecosystem of the UAE."
     ],
     "ceo_name": "Yasser Abdelmawla Youssef Khedr",
-    "ceo_role": "CEO - Al Garhoud Center",
-    "gm_message_title": "GM's Message",
+    "ceo_role": "Partner",
+    "gm_message_title": "Partner's Message",
     "gm_message": [
       "With an established presence across the UAE, Oman, Bahrain, Saudi Arabia, and Egypt, we work alongside entrepreneurs, SMEs and corporates as a strategic partner in business formation, expansion and ongoing operations.",
       "Our regional expertise and structured approach allow us to deliver consistent, compliant and scalable solutions aligned with our clients' growth objectives.",
@@ -799,7 +799,7 @@
       "Thank you for your continued trust in Al Garhoud Center."
     ],
     "gm_name": "Sameer Ali",
-    "gm_role": "GM - Al Garhoud Center"
+    "gm_role": "Partner"
   },
   "contact_us_page": {
     "breadcrumb_title": "Contact Us",
