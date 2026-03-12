@@ -14,6 +14,7 @@ const menu_data = (lang: string) => [
       { key: "tawjeeh", path: `/${lang}/service/tawjeeh` },
       { key: "notary", path: `/${lang}/service/notary` },
       { key: "salem", path: `/${lang}/service/salem` },
+      { key: "golden-visa", path: `/${lang}/service/golden-visa` },
       { key: "business-setup", path: `/${lang}/service/business-setup` },
       { key: "tax-consultancy", path: `/${lang}/service/tax-consultancy` },
       { key: "accounting", path: `/${lang}/service/accounting` },

@@ -29,9 +29,10 @@ function PrevArrow(props: any) {
 export default function OtherServicesCarousel({ dictionary, lang }: { dictionary: any, lang: string }) {
   const pathname = usePathname();
   const currentServicePath = pathname.split('/').pop();
+  const sourceServices = dictionary.other_services.items ?? dictionary.features.services;
   
   // Filter out the current service from the carousel
-  const services = dictionary.features.services.filter((service: any) => service.key !== currentServicePath);
+  const services = sourceServices.filter((service: any) => service.key !== currentServicePath);
   
   const settings = {
     dots: true,

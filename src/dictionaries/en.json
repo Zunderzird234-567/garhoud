@@ -46,6 +46,20 @@
       "Reduced processing times for all applications"
     ]
   },
+  "golden_visa_home": {
+    "eyebrow": "Featured Residency Service",
+    "title": "UAE Golden Visa",
+    "description": "The UAE Golden Visa is a long-term residency visa that allows investors, professionals and talented individuals to live, work and study in the United Arab Emirates for 10 years without a local sponsor.",
+    "benefits": [
+      "Long-term residency",
+      "No local sponsor required",
+      "Family sponsorship",
+      "Multiple entry privileges",
+      "Business & investment freedom",
+      "Stability & security"
+    ],
+    "cta": "Explore Golden Visa"
+  },
   "mission_vision": {
     "vision": {
       "title": "Vision",
@@ -205,6 +219,11 @@
       "content": "We provide comprehensive occupational health screening and all required medical fitness services through the Salem system, ensuring your workforce complies with all health and safety regulations efficiently."
     },
     {
+      "key": "golden-visa",
+      "title": "Golden Visa",
+      "content": "Get expert support for UAE Golden Visa applications, including long-term residency guidance for investors, professionals and talented individuals."
+    },
+    {
       "key": "business-setup",
       "title": "Business Setup",
       "content": "Our team offers end-to-end assistance for setting up your new business in Dubai. From initial approvals to final registration, we guide you through every step of the process for a smooth launch."
@@ -228,7 +247,43 @@
     "phone_label": "Phone:"
   },
   "other_services": {
-    "title": "Explore Other Services"
+    "title": "Explore Other Services",
+    "items": [
+      { "key": "dha", "title": "Dubai Health - DHA", "desc": "Medical fitness typing and all necessary approvals are handled seamlessly.", "link": "/service/dha", "logo": "/assets/images/service/DHA-logo.webp" },
+      { "key": "typing", "title": "Typing Services", "desc": "Accurate typing for visas, labor contracts, and various legal documents.", "link": "/service/typing", "logo": "/assets/images/service/typing-logo.webp" },
+      { "key": "amer", "title": "Amer", "desc": "Complete Amer services for visa renewal, cancellation, and modifications.", "link": "/service/amer", "logo": "/assets/images/service/amer-logo.webp" },
+      { "key": "det", "title": "DET", "desc": "License applications, renewals, and all modifications for your business.", "link": "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx?dedqs=PM671p6QBb0lV1okx2JABgxoLLKXOgPx", "logo": "/assets/images/service/det-logo.webp" },
+      { "key": "tawjeeh", "title": "Taw-Jeeh Services", "desc": "All Ministry of Labour and Taw-Jeeh services handled professionally.", "link": "/service/tawjeeh", "logo": "/assets/images/service/t3-logo.webp" },
+      { "key": "notary", "title": "Notary Public", "desc": "Book legal appointments and get government certified true copies.", "link": "/service/notary", "logo": "/assets/images/service/dubai-courts-logo.webp" },
+      { "key": "salem", "title": "Salem", "desc": "Occupational health screening and all medical fitness services.", "link": "/service/salem", "logo": "/assets/images/service/salem.jpg" },
+      { "key": "golden-visa", "title": "Golden Visa", "desc": "10-year long-term UAE residency for investors, professionals and talented individuals.", "link": "/service/golden-visa", "logo": "/assets/images/service/golden-visa.webp" },
+      { "key": "business-setup", "title": "Business Setup", "desc": "Comprehensive assistance for setting up your new business in Dubai.", "link": "/service/business-setup", "logo": "/assets/images/service/business.jpg" },
+      { "key": "tax-consultancy", "title": "Tax Consultancy", "desc": "Expert advice and professional services for VAT registration needs.", "link": "/service/tax-consultancy", "logo": "/assets/images/service/tax.jpg" },
+      { "key": "accounting", "title": "Accounting Services", "desc": "Professional bookkeeping and accounting for all business needs.", "link": "/service/accounting", "logo": "/assets/images/service/accounting.jpg" }
+    ]
+  },
+  "golden_visa_page": {
+    "header_title": "UAE Golden Visa",
+    "header_subtitle": "Long-term residency support for investors, professionals and talented individuals in the UAE.",
+    "overview_title": "UAE Golden Visa",
+    "overview_description": "The UAE Golden Visa is a long-term residency visa that allows investors, professionals and talented individuals to live, work and study in the United Arab Emirates for 10 years without a local sponsor.",
+    "benefits": [
+      "Long-term residency",
+      "No local sponsor required",
+      "Family sponsorship",
+      "Multiple entry privileges",
+      "Business & investment freedom",
+      "Stability & security"
+    ],
+    "form": {
+      "title": "Enquire About Golden Visa",
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number *",
+      "email_placeholder": "Email Address *",
+      "option_placeholder": "- Select your interest -",
+      "notes_placeholder": "Any additional notes (optional)",
+      "whatsapp_button": "WhatsApp"
+    }
   },
   "accounting_page": {
     "header_title": "Accounting & Assurance",
@@ -854,7 +909,7 @@
         "id": 1,
         "title": "Company Profile",
         "description": "An overview of our mission, vision, and the full range of services we offer.",
-        "url": "/assets/docs/GARHOUD-CENTRE-BROUCHER.pdf"
+        "url": "/assets/docs/GARHOUD-CENTRE-BROUCHER-.pdf"
       }
     ]
   },

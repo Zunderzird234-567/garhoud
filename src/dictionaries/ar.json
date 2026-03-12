@@ -46,6 +46,20 @@
       "أوقات معالجة مختصرة لجميع الطلبات"
     ]
   },
+  "golden_visa_home": {
+    "eyebrow": "خدمة إقامة مميزة",
+    "title": "الإقامة الذهبية في الإمارات",
+    "description": "الإقامة الذهبية في الإمارات هي تأشيرة إقامة طويلة الأمد تتيح للمستثمرين والمهنيين وأصحاب المواهب العيش والعمل والدراسة في دولة الإمارات العربية المتحدة لمدة 10 سنوات من دون كفيل محلي.",
+    "benefits": [
+      "إقامة طويلة الأمد",
+      "لا حاجة إلى كفيل محلي",
+      "إمكانية كفالة الأسرة",
+      "امتيازات الدخول المتعدد",
+      "حرية الأعمال والاستثمار",
+      "الاستقرار والأمان"
+    ],
+    "cta": "استكشف الإقامة الذهبية"
+  },
   "mission_vision": {
     "vision": {
       "title": "الرؤية",
@@ -205,6 +219,11 @@
       "content": "نحن نقدم فحصًا صحيًا مهنيًا شاملاً وجميع خدمات اللياقة الطبية المطلوبة من خلال نظام سالم، مما يضمن امتثال القوى العاملة لديك لجميع لوائح الصحة والسلامة بكفاءة."
     },
     {
+      "key": "golden-visa",
+      "title": "الإقامة الذهبية",
+      "content": "احصل على دعم متخصص لطلبات الإقامة الذهبية في الإمارات، بما يشمل إرشاد الإقامة طويلة الأمد للمستثمرين والمهنيين وأصحاب المواهب."
+    },
+    {
       "key": "business-setup",
       "title": "تأسيس الأعمال",
       "content": "يقدم فريقنا مساعدة شاملة لتأسيس عملك الجديد في دبي. من الموافقات الأولية إلى التسجيل النهائي، نوجهك خلال كل خطوة من العملية لإطلاق سلس."
@@ -228,7 +247,43 @@
     "phone_label": "الهاتف:"
   },
   "other_services": {
-    "title": "استكشف خدمات أخرى"
+    "title": "استكشف خدمات أخرى",
+    "items": [
+      { "key": "dha", "title": "صحة دبي - DHA", "desc": "تتم معالجة فحص اللياقة الطبية وجميع الموافقات اللازمة بسلاسة.", "link": "/service/dha", "logo": "/assets/images/service/DHA-logo.webp" },
+      { "key": "typing", "title": "خدمات الطباعة", "desc": "طباعة دقيقة للتأشيرات وعقود العمل ومختلف الوثائق القانونية.", "link": "/service/typing", "logo": "/assets/images/service/typing-logo.webp" },
+      { "key": "amer", "title": "آمر", "desc": "خدمات آمر كاملة لتجديد التأشيرات والإلغاء والتعديلات.", "link": "/service/amer", "logo": "/assets/images/service/amer-logo.webp" },
+      { "key": "det", "title": "دائرة الاقتصاد والسياحة", "desc": "طلبات التراخيص وتجديدها وجميع التعديلات لأعمالك.", "link": "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx?dedqs=PM671p6QBb0lV1okx2JABgxoLLKXOgPx", "logo": "/assets/images/service/det-logo.webp" },
+      { "key": "tawjeeh", "title": "خدمات توجيه", "desc": "تتم معالجة جميع خدمات وزارة العمل وتوجيه باحترافية.", "link": "/service/tawjeeh", "logo": "/assets/images/service/t3-logo.webp" },
+      { "key": "notary", "title": "كاتب العدل", "desc": "حجز المواعيد القانونية والحصول على نسخ طبق الأصل مصدقة من الحكومة.", "link": "/service/notary", "logo": "/assets/images/service/dubai-courts-logo.webp" },
+      { "key": "salem", "title": "سالم", "desc": "الفحص الصحي المهني وجميع خدمات اللياقة الطبية.", "link": "/service/salem", "logo": "/assets/images/service/salem.jpg" },
+      { "key": "golden-visa", "title": "الإقامة الذهبية", "desc": "إقامة طويلة الأمد لمدة 10 سنوات في الإمارات للمستثمرين والمهنيين وأصحاب المواهب.", "link": "/service/golden-visa", "logo": "/assets/images/service/golden-visa.webp" },
+      { "key": "business-setup", "title": "تأسيس الأعمال", "desc": "مساعدة شاملة لتأسيس عملك الجديد في دبي.", "link": "/service/business-setup", "logo": "/assets/images/service/business.jpg" },
+      { "key": "tax-consultancy", "title": "استشارات ضريبية", "desc": "مشورة متخصصة وخدمات مهنية لاحتياجات تسجيل ضريبة القيمة المضافة.", "link": "/service/tax-consultancy", "logo": "/assets/images/service/tax.jpg" },
+      { "key": "accounting", "title": "خدمات المحاسبة", "desc": "مسك دفاتر وحسابات مهنية لجميع احتياجات العمل.", "link": "/service/accounting", "logo": "/assets/images/service/accounting.jpg" }
+    ]
+  },
+  "golden_visa_page": {
+    "header_title": "الإقامة الذهبية في الإمارات",
+    "header_subtitle": "دعم الإقامة طويلة الأمد للمستثمرين والمهنيين وأصحاب المواهب في دولة الإمارات.",
+    "overview_title": "الإقامة الذهبية في الإمارات",
+    "overview_description": "الإقامة الذهبية في الإمارات هي تأشيرة إقامة طويلة الأمد تتيح للمستثمرين والمهنيين وأصحاب المواهب العيش والعمل والدراسة في دولة الإمارات العربية المتحدة لمدة 10 سنوات من دون كفيل محلي.",
+    "benefits": [
+      "إقامة طويلة الأمد",
+      "لا حاجة إلى كفيل محلي",
+      "إمكانية كفالة الأسرة",
+      "امتيازات الدخول المتعدد",
+      "حرية الأعمال والاستثمار",
+      "الاستقرار والأمان"
+    ],
+    "form": {
+      "title": "استفسر عن الإقامة الذهبية",
+      "name_placeholder": "الاسم الكامل *",
+      "phone_placeholder": "رقم الهاتف *",
+      "email_placeholder": "البريد الإلكتروني *",
+      "option_placeholder": "- اختر اهتمامك -",
+      "notes_placeholder": "أي ملاحظات إضافية (اختياري)",
+      "whatsapp_button": "واتساب"
+    }
   },
   "accounting_page": {
     "header_title": "المحاسبة والتدقيق",
@@ -854,7 +909,7 @@
         "id": 1,
         "title": "ملف الشركة",
         "description": "نظرة عامة على مهمتنا ورؤيتنا والمجموعة الكاملة من الخدمات التي نقدمها.",
-        "url": "/assets/docs/GARHOUD-CENTRE-BROUCHER.pdf"
+        "url": "/assets/docs/GARHOUD-CENTRE-BROUCHER-.pdf"
       }
     ]
   },

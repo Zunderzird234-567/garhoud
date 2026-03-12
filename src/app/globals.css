@@ -714,6 +714,135 @@ body h6 {
     padding-bottom: 120px;
 }
 
+.golden-visa-home {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #1b1304 0%, #30210a 45%, #bd8c2e 100%);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.golden-visa-home::after {
+  content: "";
+  position: absolute;
+  inset: auto -80px -80px auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.golden-visa-home__content {
+  position: relative;
+  z-index: 1;
+}
+
+.golden-visa-home__eyebrow {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.golden-visa-home h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.golden-visa-home p {
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 720px;
+}
+
+.golden-visa-home__benefits {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem 1.25rem;
+  margin: 2rem 0;
+}
+
+.golden-visa-home__benefit {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.golden-visa-home__benefit-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  color: #f6d27b;
+  flex-shrink: 0;
+}
+
+.golden-visa-home__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 0.95rem 1.4rem;
+  border-radius: 999px;
+  background: #fff;
+  color: #1b1304 !important;
+  font-weight: 700;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.golden-visa-home__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+}
+
+.golden-visa-home__media {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.golden-visa-home__logo-card {
+  width: min(100%, 340px);
+  padding: 2rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.golden-visa-home__logo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .golden-visa-home {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .golden-visa-home__benefits {
+    grid-template-columns: 1fr;
+  }
+}
+
 .azzle-pricing-wrap {
   position: relative;
 }

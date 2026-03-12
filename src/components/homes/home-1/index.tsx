@@ -2,6 +2,7 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
 import HeroHomeOne from "./HeroHomeOne";
 import FeaturesHomeOne from "./FeaturesHomeOne";
+import GoldenVisaHomeOne from "./GoldenVisaHomeOne";
 import AboutHomeOne from "./AboutHomeOne";
 import PricingHomeOne from "./PricingHomeOne";
 import FaqHomeOne from "./FaqHomeOne";
@@ -17,6 +18,7 @@ export default function HomeOne({ dictionary, lang }: { dictionary: any, lang: s
 				<div id="smooth-content">
           <HeroHomeOne dictionary={dictionary.hero} lang={lang} />
           <FeaturesHomeOne dictionary={dictionary.features} lang={lang} />
+          <GoldenVisaHomeOne dictionary={dictionary.golden_visa_home} lang={lang} />
           <AboutHomeOne dictionary={dictionary.about} />
           <PricingHomeOne dictionary={dictionary.mission_vision} />
           <QuoteHomeOne dictionary={dictionary.quote} />
