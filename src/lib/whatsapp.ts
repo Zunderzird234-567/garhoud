@@ -1,4 +1,4 @@
-const DEFAULT_WHATSAPP_NUMBER = "97143991744";
+export const DEFAULT_WHATSAPP_NUMBER = "9715545877223";
 
 type WhatsAppField = {
   label: string;

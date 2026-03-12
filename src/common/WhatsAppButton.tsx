@@ -1,10 +1,9 @@
 'use client';
 import Link from 'next/link';
+import { DEFAULT_WHATSAPP_NUMBER } from '@/lib/whatsapp';
 
 const WhatsAppButton = () => {
-  // Replace with your actual WhatsApp number in international format without '+' or '00'
-  const phoneNumber = "9710557093431"; 
-  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}`;
+  const whatsappUrl = `https://wa.me/${DEFAULT_WHATSAPP_NUMBER}`;
 
   return (
     <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="whatsapp-float">

@@ -1,7 +1,7 @@
 
 "use client";
 import { useState } from "react";
-import Link from "next/link"; 
+import { DEFAULT_WHATSAPP_NUMBER } from "@/lib/whatsapp";
  
 
 interface FaqItem {
@@ -48,7 +48,7 @@ export default function FaqHomeOne({ style_2 = false, dictionary, lang }: StyleP
                   className="azzle-default-btn"
                   data-aos="fade-up"
                   data-aos-delay="700"
-                  href="https://wa.me/9710557093431"
+                  href={`https://wa.me/${DEFAULT_WHATSAPP_NUMBER}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   data-text={dictionary.cta}
