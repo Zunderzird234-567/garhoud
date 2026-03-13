@@ -1041,6 +1041,40 @@ body h6 {
   margin-bottom: 32px;
 }
 
+.footer-service-logos {
+  margin-top: 34px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(76px, 1fr));
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-service-logos__item {
+  height: clamp(68px, 5vw, 88px);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(8px, 0.6vw, 10px);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.footer-service-logos__item:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.footer-service-logos__image {
+  width: auto;
+  max-width: 100%;
+  max-height: clamp(42px, 3.6vw, 60px);
+  object-fit: contain;
+}
+
 @media (max-width: 991px) {
   .golden-visa-home {
     grid-template-columns: 1fr;
@@ -1069,6 +1103,11 @@ body h6 {
 
   .google-review-col {
     margin-bottom: 24px;
+  }
+
+  .footer-service-logos {
+    grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+    gap: 10px;
   }
 }
 

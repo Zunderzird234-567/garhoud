@@ -5,6 +5,19 @@ import { useEffect, useRef, useState } from "react";
 export default function FooterOne({ dictionary, lang }: { dictionary: any, lang: string }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [isPaused, setIsPaused] = useState(false);
+  const serviceLogos = [
+    { title: "DHA", path: `/${lang}/service/dha`, logo: "/assets/images/service/DHA-logo.webp" },
+    { title: "Typing", path: `/${lang}/service/typing`, logo: "/assets/images/service/typing-logo.webp" },
+    { title: "Amer", path: `/${lang}/service/amer`, logo: "/assets/images/service/amer-logo.webp" },
+    { title: "DET", path: "https://eservices.dubaided.gov.ae/pages/anon/gsthme.aspx?dedqs=PM671p6QBb0lV1okx2JABgxoLLKXOgPx", logo: "/assets/images/service/det-logo.webp" },
+    { title: "Tawjeeh", path: `/${lang}/service/tawjeeh`, logo: "/assets/images/service/t3-logo.webp" },
+    { title: "Notary", path: `/${lang}/service/notary`, logo: "/assets/images/service/dubai-courts-logo.webp" },
+    { title: "Salem", path: `/${lang}/service/salem`, logo: "/assets/images/service/salem.jpg" },
+    { title: "Golden Visa", path: `/${lang}/service/golden-visa`, logo: "/assets/images/service/golden-visa.webp" },
+    { title: "Business Setup", path: `/${lang}/service/business-setup`, logo: "/assets/images/service/business.jpg" },
+    { title: "Tax Consultancy", path: `/${lang}/service/tax-consultancy`, logo: "/assets/images/service/tax.jpg" },
+    { title: "Accounting", path: `/${lang}/service/accounting`, logo: "/assets/images/service/accounting.jpg" },
+  ];
 
   useEffect(() => {
     const container = containerRef.current;
@@ -133,6 +146,30 @@ export default function FooterOne({ dictionary, lang }: { dictionary: any, lang:
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="footer-service-logos">
+            {serviceLogos.map((service) => {
+              const logoCard = (
+                <div className="footer-service-logos__item">
+                  <img
+                    src={service.logo}
+                    alt={service.title}
+                    className="footer-service-logos__image"
+                  />
+                </div>
+              );
+
+              return service.path.startsWith("http") ? (
+                <a key={service.title} href={service.path} target="_blank" rel="noopener noreferrer">
+                  {logoCard}
+                </a>
+              ) : (
+                <Link key={service.title} href={service.path}>
+                  {logoCard}
+                </Link>
+              );
+            })}
           </div>
         </div>
 
