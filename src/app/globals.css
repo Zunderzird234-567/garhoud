@@ -477,24 +477,33 @@ body h6 {
   }
 }
 
-/* WhatsApp Floating Button */
-.whatsapp-float {
+/* Floating Contact Buttons */
+.floating-contact-buttons {
   position: fixed;
-  width: 60px;
-  height: 60px;
   bottom: 110px;
   right: 40px;
-  background-color: #25d366;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.floating-contact-button {
+  width: 60px;
+  height: 60px;
   color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.call-float {
+  background-color: #e53935;
 }
 
 .whatsapp-float:hover {
@@ -502,7 +511,16 @@ body h6 {
   background-color: #128c7e;
 }
 
-.whatsapp-icon {
+.call-float:hover {
+  transform: scale(1.1);
+  background-color: #c62828;
+}
+
+.whatsapp-float {
+  background-color: #25d366;
+}
+
+.floating-contact-icon {
   stroke: white;
 }
 
