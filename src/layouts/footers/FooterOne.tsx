@@ -82,6 +82,9 @@ export default function FooterOne({ dictionary, lang }: { dictionary: any, lang:
                   <img src="/assets/images/logo/logo-dark.svg" alt="Logo" style={{ width: '200px' }} />
                 </Link>
                 <p>{dictionary.description}</p>
+                <a href="https://maps.app.goo.gl/7z1VGE9FZgaZZAaL9" target="_blank" rel="noopener noreferrer">
+                  <span>{dictionary.address_label}</span> {dictionary.address_value}
+                </a>
                 <a href="mailto:info@algarhoudamercenter.ae">
                   <span>{dictionary.email_label}</span> info@algarhoudamercenter.ae
                 </a>

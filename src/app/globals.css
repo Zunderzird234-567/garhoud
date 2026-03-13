@@ -850,6 +850,197 @@ body h6 {
   object-fit: contain;
 }
 
+.google-review-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  width: min(100%, 760px);
+  padding: 1.2rem 1.35rem;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+}
+
+.google-review-badge__main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.google-review-badge__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.google-review-badge__logo {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+}
+
+.google-review-badge__label {
+  color: #202124;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.google-review-badge__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.google-review-badge__rating {
+  color: #202124;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.google-review-badge__stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.12rem;
+  color: #fbbc04;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.google-review-badge__summary {
+  color: #5f6368;
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+
+.google-review-badge__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.8rem 1.2rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #4285f4 0%, #1a73e8 100%);
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  box-shadow: 0 12px 28px rgba(26, 115, 232, 0.28);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.google-review-badge__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(26, 115, 232, 0.34);
+}
+
+.google-review-badge__subtext {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1rem;
+}
+
+.google-review-card {
+  height: 100%;
+  padding: 1.7rem;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+}
+
+.google-review-card__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.google-review-card__avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #e8f0fe 0%, #d2e3fc 100%);
+  color: #1a73e8;
+  font-weight: 800;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.google-review-card__person p {
+  margin: 0 0 0.2rem;
+  color: #202124;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.google-review-card__person span {
+  display: block;
+  color: #5f6368;
+  font-size: 0.86rem;
+  line-height: 1.2;
+}
+
+.google-review-card__rating {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1.15rem;
+  flex-wrap: wrap;
+}
+
+.google-review-card__score {
+  color: #202124;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.google-review-card__stars {
+  display: inline-flex;
+  gap: 0.1rem;
+  color: #fbbc04;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.google-review-card__verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #5f6368;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.google-review-card__verified img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.google-review-card__content p {
+  margin: 0;
+  color: #3c4043;
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.google-review-col {
+  margin-bottom: 32px;
+}
+
 @media (max-width: 991px) {
   .golden-visa-home {
     grid-template-columns: 1fr;
@@ -858,6 +1049,26 @@ body h6 {
 
   .golden-visa-home__benefits {
     grid-template-columns: 1fr;
+  }
+
+  .google-review-badge {
+    padding: 1rem;
+  }
+
+  .google-review-badge__label {
+    font-size: 1.15rem;
+  }
+
+  .google-review-badge__rating {
+    font-size: 1.4rem;
+  }
+
+  .google-review-card {
+    padding: 1.35rem;
+  }
+
+  .google-review-col {
+    margin-bottom: 24px;
   }
 }
 

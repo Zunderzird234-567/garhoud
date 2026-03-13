@@ -81,6 +81,12 @@ export default function ContactArea({ dictionary, lang }: { dictionary: any; lan
               <div className="mt-50">
                 <div className="azzle-contact-info-wrap">
                   <div className="azzle-contact-info-item">
+                    <h5>{dictionary.address_label}</h5>
+                    <a href="https://maps.app.goo.gl/7z1VGE9FZgaZZAaL9" target="_blank" rel="noopener noreferrer">
+                      {dictionary.address_value}
+                    </a>
+                  </div>
+                  <div className="azzle-contact-info-item">
                     <h5>{dictionary.email_label}</h5>
                     <a href="mailto:info@algarhoudamercenter.ae">info@algarhoudamercenter.ae</a>
                   </div>

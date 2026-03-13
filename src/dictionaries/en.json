@@ -105,43 +105,44 @@
     ]
   },
   "testimonials": {
-    "title": "Positive feedback from our valued clients",
+    "title": "Reviews",
+    "rating": "4.8",
+    "review_count": "342",
+    "summary": "4.8 rating verified by Al-Garhoud Center",
+    "source_label": "Google review",
+    "verified_label": "Verified review",
+    "write_review": "Write a review",
+    "review_link": "https://www.google.com/search?sca_esv=288d0459570a6d4e&sxsrf=ANbL-n60iq37phyirochd8HPZKtF2-V7wA:1773401628090&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOVlcuG98nKDdB9bfrqTPve1mOQM1rYAhsHbWkncyLgk-O5ZShhysKaOc8YvyhjTZkZZtlxiNHPWnQ-ia_5-hLJujRA8VkLVDP5QXQCWbIRrslZVJ2XkJWa0-E1YuHqBaPlzrGZome8wwWBYTA7aPf74CcaiB_amjrR7tiFtmJCFi8mo7MUl-iVNuiU6p_7upTZB5QufX9Fb2_ckaaMYJmE4BSjEzAEKAan1wQU4im8oxsILbg92WOK3EfNGJZO0e-lpz3o4%3D&q=Amer+Lounge+%7C+DED-+Al+Garhoud+%D8%B5%D8%A7%D9%84%D8%A9+%D8%A2%D9%85%D8%B1+%D8%A7%D9%84%D9%82%D8%B1%D9%87%D9%88%D8%AF+/+%D8%AE%D8%AF%D9%85%D8%A7%D8%AA+%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9+%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9+%D8%AF%D8%A8%D9%8A+Reviews&sa=X&ved=2ahUKEwiNmNjw45yTAxUbdqQEHdZEKzYQ0bkNegQIJRAH&biw=1710&bih=985&dpr=2#lrd=0x3e5f5d46e9342755:0xc2ee2e3db0eb2788,3,,,,",
     "feedbacks": [
       {
-        "text": "“The team at Al Garhoud Center revolutionized how I handle my visa renewals. Fast, professional and so efficient. A game-changer for any resident.”",
-        "author": "Ahmed Al-Sayed",
-        "role": "Business Owner",
-        "img": "/assets/images/home1/author1.png"
+        "name": "Edelyn Joy Dellota",
+        "rating": 5,
+        "review": "Professional team it was really a pleasant experience overall. Inclusive environment always ready to resolve your queries with a smile. Thank you soo much for all the assistance especially Mr. Ahmed Mohamed, Mr. Muhammad, Mr. Muhammad Arshad, Ms. Fatima and Ms. Noora, Mr. Thwahir. Keep up the good work. Thank you and God bless you all."
       },
       {
-        "text": "\"They answer immediately and provide clear guidance. My medical fitness test process was incredibly smooth. Our go-to center from now on!\"",
-        "author": "Johnathan Smith",
-        "role": "Expat Resident",
-        "img": "/assets/images/home1/author2.png"
+        "name": "Sarah Boateng",
+        "rating": 5,
+        "review": "I experience 3 times overstay fine but anytime I visit this Amer center Ms Mona at the counter number 1 was always available to help and assist me get it done and am very grateful to be there for all my visa and all issues related to their service. All the staffs are great and friendly too. I'll always recommend and always be there for all my issues. Thank you all for your great service. Much respect Ms Mona."
       },
       {
-        "text": "\"Fast, accurate and professional. The Amer and Taw-Jeeh services here are must-haves for any company operating in Dubai.\"",
-        "author": "Rajesh Kumar",
-        "role": "PRO Manager",
-        "img": "/assets/images/home1/author3.png"
+        "name": "Yuliya Balu",
+        "rating": 5,
+        "review": "I would like to express my gratitude for a high level of professionalism and dedication to serving the public. A special thanks goes to Fatma Zadeh for her kindness, responsiveness, and willingness to help in any situation."
       },
       {
-        "text": "\"Security and trust are my top concerns. Al Garhoud Center handles all documents with the utmost confidentiality. A reassuring layer of professionalism.\"",
-        "author": "David Chen",
-        "role": "Investor",
-        "img": "/assets/images/home1/author4.png"
+        "name": "Nim Fat Kwai",
+        "rating": 5,
+        "review": "Went to this center to process new employment for my staffs. I was impressed by the service not just from Labour but immigration as well and I have to give credit to all the new and young generation staffs there."
       },
       {
-        "text": "\"We were concerned about the complexity of our trade license renewal, but their DET services were well-documented and their support team was fantastic.\"",
-        "author": "Kevin Lynn",
-        "role": "Restaurant Owner",
-        "img": "/assets/images/home1/author5.png"
+        "name": "Aamir Khan",
+        "rating": 5,
+        "review": "The customer service was particularly impressive. The representatives Mrs. Soukaina were not only friendly but also highly informative."
       },
       {
-        "text": "\"The return on investment in their services has exceeded our expectations. It's an investment in efficiency and peace of mind for our business.\"",
-        "author": "Henry Ochi",
-        "role": "Logistics Manager",
-        "img": "/assets/images/home1/author6.png"
+        "name": "I Experience",
+        "rating": 5,
+        "review": "I wish to express my gratitude to Mr. Majid at counter 7 for his exceptional assistance in guiding us through the residence visa process."
       }
     ]
   },
@@ -155,6 +156,8 @@
       "Stay ahead of regulations"
     ],
     "description": "Al Garhoud Center is dedicated to providing exceptional government services with a commitment to efficiency, transparency and customer satisfaction, aligning with the vision of Dubai's leadership.",
+    "address_label": "Address:",
+    "address_value": "UB Building - Sheikh Rashid Rd - Al Garhoud - Dubai",
     "email_label": "Email:",
     "phone_label": "Phone:",
     "pages_title": "Pages",
@@ -870,6 +873,8 @@
     "breadcrumb_page": "Contact Us",
     "title": "Get in touch with us directly",
     "desc": "We are here to assist. Please share your request and an expert will respond within 24 hours.",
+    "address_label": "Address:",
+    "address_value": "UB Building - Sheikh Rashid Rd - Al Garhoud - Dubai",
     "email_label": "Send us an email:",
     "phone_label": "Give us a call:",
     "follow_label": "Follow us:",
